@@ -1,0 +1,26 @@
+{
+  "name": "bp-encyclopedia",
+  "version": "1.0.0",
+  "description": "Bird Pick encyclopedia for tea and herbs.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "react": "^15.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsevalieu/bp-encyclopedia.git"
+  },
+  "author": "Eva Lieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsevalieu/bp-encyclopedia/issues"
+  },
+  "homepage": "https://github.com/itsevalieu/bp-encyclopedia#readme"
+}
