@@ -6,22 +6,73 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+	<link rel="stylesheet" href="../assets/css/main.css">
+
 </head>
 <body>
 	<nav class="black">
-		<div class="container nav-wrapper">
-			<a href="#" class="brand-logo">Tea Encyclopedia</a>
-			<ul id="nav-mobile" class="right hide-on-med-and-down">
+		<div class="nav-wrapper" style="border: 1px solid red">
+			<a href="#" class="brand-logo center">Tea Encyclopedia</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			
+			<ul class="left hide-on-med-and-down">
+				<li><a href="sass.html">Tea</a></li>
+				<li><a href="badges.html">Herbs</a></li>
+				<li><a href="collapsible.html">About</a></li>
+			</ul>
+			
+			<ul class="side-nav" id="mobile-demo">
 				<li><a href="sass.html">Tea</a></li>
 				<li><a href="badges.html">Herbs</a></li>
 				<li><a href="collapsible.html">About</a></li>
 			</ul>
 		</div>
-	</nav>
-	<div class="container">
+	</nav>			
+	<main>
 		<div class="row">
-			<div class="col lg12">cat</div>
+			<div class="col l10" style="border: 1px solid red">
+				<ul class="collapsible" data-collapsible="accordion">
+					<li>
+						<div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+					</li>
+					<li>
+						<div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+					</li>
+					<li>
+						<div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+					</li>
+				</ul>
+			</div>
+			<div class="sidebar col l2" style="border: 1px solid black">
+				<form class="teal">
+					<div class="input-field" style="margin: 0 0">
+						<input id="search" type="search" required>
+						<label class="label-icon" for="search"><i class="material-icons">search</i></label>
+						<i class="material-icons">close</i>
+					</div>
+				</form>	
+			</div>
 		</div>
-	</div>
+	</main>
+	 <footer class="page-footer">
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Eva Lieu
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+	 <!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+	<script>
+		$( document ).ready(function(){
+			$(".button-collapse").sideNav();
+			$(".collapsible").collapsible();
+		});
+	</script>
 </body>
 </html>
