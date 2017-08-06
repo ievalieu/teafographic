@@ -27,21 +27,44 @@
 			</ul>
 		</div>
 	</nav>			
-	<main>
-		<div class="row">
-			
-			<div class="sidebar col l2" style="border: 1px solid black">
-				<form class="teal">
-					<div class="input-field" style="margin: 0 0">
-						<input id="search" type="search" required>
-						<label class="label-icon" for="search"><i class="material-icons">search</i></label>
-						<i class="material-icons">close</i>
+	<main style="border: 1px solid red">
+		<div class="row" style="margin: 0 0">
+			<div class="col l9" style="border: 1px solid red">
+				<ul class="collapsible" data-collapsible="accordion">
+					<li>
+						<div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+					</li>
+					<li>
+						<div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+					</li>
+					<li>
+						<div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+					</li>
+				</ul>
+			</div>
+			<div class="sidebar col l3" style="border: 1px solid black; padding: 0 0">
+				<div class="row" style="margin: 0 0">
+					<form style="margin: 0 0; border: 1px solid red;">
+						<div class="teal input-field" style="margin: 0 0; border: 1px solid pink;">
+							<input id="search" type="search" required style="margin: 0 0;">
+							<label class="label-icon" for="search"><i class="material-icons">search</i></label>
+							<i class="material-icons" style="height: 10px; width: 10px; padding: 5px 15px;">close</i>
+						</div>
+					</form>	
+				</div>
+				<div class="row pink" style="margin: 0 0; display: flex; flex-direction: column; min-height: 100vh">
+					<div class="col l12" style="flex: 1">
+						<h3>Tags</h3>
+						<h3>Columns</h3>
 					</div>
-				</form>	
+				</div>
 			</div>
 		</div>
 	</main>
-	 <footer class="page-footer">
+	 <footer class="page-footer" style="margin: 0 0">
           <div class="footer-copyright">
             <div class="container">
             © 2017 Eva Lieu
@@ -60,21 +83,3 @@
 	</script>
 </body>
 </html>
-
-<!-- 
-header
-navbar
-main
-	sidebar
-		search
-	section
-footer -->
-
-
-
-
-
-
-
-
-
