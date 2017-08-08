@@ -10,14 +10,14 @@
 </head>
 <body>
 	<nav class="black">
-		<div class="nav-wrapper" style="border: 1px solid red">
-			<a href="#" class="brand-logo center">Tea Encyclopedia</a>
+		<div class="nav-wrapper">
+			<a href="#" class="brand-logo center" style="font-family: 'Lato', sans-serif; font-weight: 200">TEA ENCYCLOPEDIA</a>
 			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 			
 			<ul class="left hide-on-med-and-down">
-				<li><a href="sass.html">Tea</a></li>
-				<li><a href="badges.html">Herbs</a></li>
-				<li><a href="collapsible.html">About</a></li>
+				<li><a href="sass.html" style="font-family: 'Lato', sans-serif; font-weight: 200">Tea</a></li>
+				<li><a href="badges.html" style="font-family: 'Lato', sans-serif; font-weight: 200">Herbs</a></li>
+				<li><a href="collapsible.html" style="font-family: 'Lato', sans-serif; font-weight: 200">About</a></li>
 			</ul>
 			
 			<ul class="side-nav" id="mobile-demo">
@@ -26,11 +26,20 @@
 				<li><a href="collapsible.html">About</a></li>
 			</ul>
 		</div>
-	</nav>			
-	<main style="border: 1px solid red">
+	</nav>	
+	<section style="margin-bottom: 25px">
+		<form style="margin: 0 0">
+			<div class="teal input-field" style="margin: 0 0;">
+				<input id="search" type="search" required style="margin: 0 0;">
+				<label class="label-icon" for="search"><i class="material-icons">search</i></label>
+				<i class="material-icons" style="height: 10px; width: 10px; padding: 5px 15px;">close</i>
+			</div>
+		</form>	
+	</section>
+	<main class="container">
 		<div class="row" style="margin: 0 0">
-			<div class="col l9" style="border: 1px solid red">
-				<ul class="collapsible" data-collapsible="accordion">
+			<div class="col l12 m12 s12">
+				<ul class="collapsible" data-collapsible="accordion" id="results">
 					<li>
 						<div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
 						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -45,26 +54,9 @@
 					</li>
 				</ul>
 			</div>
-			<div class="sidebar col l3" style="border: 1px solid black; padding: 0 0">
-				<div class="row" style="margin: 0 0">
-					<form style="margin: 0 0; border: 1px solid red;">
-						<div class="teal input-field" style="margin: 0 0; border: 1px solid pink;">
-							<input id="search" type="search" required style="margin: 0 0;">
-							<label class="label-icon" for="search"><i class="material-icons">search</i></label>
-							<i class="material-icons" style="height: 10px; width: 10px; padding: 5px 15px;">close</i>
-						</div>
-					</form>	
-				</div>
-				<div class="row pink" style="margin: 0 0; display: flex; flex-direction: column; min-height: 100vh">
-					<div class="col l12" style="flex: 1">
-						<h3>Tags</h3>
-						<h3>Columns</h3>
-					</div>
-				</div>
-			</div>
 		</div>
 	</main>
-	 <footer class="page-footer" style="margin: 0 0">
+	 <footer class="page-footer teal" style="margin: 0 0">
           <div class="footer-copyright">
             <div class="container">
             © 2017 Eva Lieu
@@ -79,6 +71,10 @@
 		$( document ).ready(function(){
 			$(".button-collapse").sideNav();
 			$(".collapsible").collapsible();
+
+			//include function to append each search result
+			$("#results").append('<li><div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div><div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div></li>');
+
 		});
 	</script>
 </body>
