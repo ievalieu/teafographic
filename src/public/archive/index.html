@@ -30,13 +30,14 @@
 	<section style="margin-bottom: 25px">
 		<form style="margin: 0 0">
 			<div class="teal input-field" style="margin: 0 0;">
-				<input id="search" type="search" required style="margin: 0 0;">
+				<input id="search" value="cat" type="search" required style="margin: 0 0;">
 				<label class="label-icon" for="search"><i class="material-icons">search</i></label>
 				<i class="material-icons" style="height: 10px; width: 10px; padding: 5px 15px;">close</i>
 			</div>
 		</form>	
 	</section>
 	<main class="container">
+		<div id="showstuff"></div>
 		<div class="row" style="margin: 0 0">
 			<div class="col l12 m12 s12">
 				<ul class="collapsible" data-collapsible="accordion" id="results">
@@ -74,22 +75,22 @@
 
 			//include function to append each search result
 			$("#results").append('<li><div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div><div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div></li>');
-
-
+			var name = $("#search").val();
+			console.log(name);
 
 				//get form input value;
 				//reference database
 				//get results
 				//append results
 
-			var tea = {
-				name: name,
-				description: description,
-				benefits: benefits, //health
-				tag: [],
-				category: [],
-				products: [],
-			};
+			// var tea = {
+			// 	name: name,
+			// 	description: description,
+			// 	benefits: benefits, //health
+			// 	tag: [],
+			// 	category: [],
+			// 	products: [],
+			// };
 		});
 	</script>
 </body>
