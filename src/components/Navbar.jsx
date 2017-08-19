@@ -1,6 +1,6 @@
 import React, { PropTypes, Component } from "react";
 
-class App extends Component {
+class Navbar extends Component {
 	render() {
 		<div>
 			<div>NAVBAR</div>
@@ -8,4 +8,4 @@ class App extends Component {
 	}
 };
 
-export default App;
+export default Navbar;

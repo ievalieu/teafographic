@@ -1,6 +1,6 @@
 import React, { PropTypes, Component } from "react";
 
-class App extends Component {
+class Sidebar extends Component {
 	render() {
 		<div>
 			<div>SIDEBAR</div>
@@ -8,4 +8,4 @@ class App extends Component {
 	}
 };
 
-export default App;
+export default Sidebar;

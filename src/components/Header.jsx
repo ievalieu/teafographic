@@ -1,6 +1,6 @@
 import React, { PropTypes, Component } from "react";
 
-class App extends Component {
+class Header extends Component {
 	render() {
 		<div>
 			<div>HEADER</div>
@@ -8,4 +8,4 @@ class App extends Component {
 	}
 };
 
-export default App;
+export default Header;
