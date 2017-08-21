@@ -1,12 +1,3 @@
-var tea = {
-	name: name,
-	description: description,
-	benefits: benefits, //health
-	tag: [],
-	category: [],
-	products: [],
-};
-
 module.exports = function(sequelize, DataTypes) {
 	var Tea = sequelize.define("Tea", {
 		name: {
