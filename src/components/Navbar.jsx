@@ -3,7 +3,7 @@ import React, { PropTypes, Component } from "react";
 class Navbar extends Component {
 	render() {
 		<section style="margin-bottom: 25px">
-			<form style="margin: 0 0">
+			<form onSubmit={ _onSubmit() } style="margin: 0 0">
 				<div class="teal input-field" style="margin: 0 0;">
 					<input id="search" value="cat" type="search" required style="margin: 0 0;"/>
 					<label class="label-icon" for="search"><i class="material-icons">search</i></label>
@@ -11,6 +11,9 @@ class Navbar extends Component {
 				</div>
 			</form>	
 		</section>
+	}
+	_onSubmit () {
+		//action on submit, get results
 	}
 };
 
