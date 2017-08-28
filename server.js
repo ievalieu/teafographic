@@ -10,10 +10,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
-app.get("/", function(req, res) {
-	res.sendFile(__dirname + "/src/public/index.html");
+app.get("/*", function (req, res) {
+    res.sendFile(path.join(__dirname, './src/index.html'));
 });
-
 
 app.listen(PORT, function() {
 	console.log("App listening on PORT: " + PORT);
