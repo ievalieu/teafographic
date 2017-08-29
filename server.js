@@ -11,7 +11,7 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 app.get("/*", function (req, res) {
-    res.sendFile(path.join(__dirname, './src/index.html'));
+    res.sendFile(path.join(__dirname, './src/public/index.html'));
 });
 
 app.listen(PORT, function() {
