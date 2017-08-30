@@ -5,6 +5,8 @@ import App from './App.jsx';
 
 export default () => {
 	return(
-		<Route path='/' component={App}></Route>
+		<Route path='/' component={App}>
+		
+		</Route>
 	);
 };

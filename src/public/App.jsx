@@ -8,13 +8,15 @@ import Sidebar from '../components/Sidebar.jsx';
 
 class App extends Component {
 	render() {
-		<div>App.js
-			<Header/>
-			<Navbar/>
-			<Main/>
-			<Sidebar/>
-			<Footer/>
-		</div>
+		return (
+			<div>
+				<Header />
+				<Navbar />
+				<Main />
+				<Sidebar />
+				<Footer />
+			</div>
+		);
 	}
 };
 
