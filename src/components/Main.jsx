@@ -16,3 +16,5 @@ class Main extends Component {
 };
 
 export default Main;
+
+//Main will be the component the search results load into. So should be renamed?

@@ -25,3 +25,6 @@ class Results extends Component {
 };
 
 export default Results;
+
+
+//Each p tag will have props, from the search bar. 
