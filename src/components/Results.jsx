@@ -8,11 +8,11 @@ class Results extends Component {
 				<div className="row">
 				<div className="col l9 m9 s9">
 					<span>
-						<p>Type: Green</p>
-						<p>Caffeine Level: High</p>
-						<p>Health Benefits: Lowers Cholesterol</p>
-						<p>Tea Summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia at, ratione recusandae voluptatum vero, qui temporibus tempora veritatis dolores maxime. Eius molestiae eum veniam reiciendis quae ipsa ad incidunt quis?</p>
-						<p>Shop: www.birdpick.com</p>
+						<p id="type">Type: Green</p>
+						<p id="caffeine">Caffeine Level: High</p>
+						<p id="benefits">Health Benefits: Lowers Cholesterol</p>
+						<p id="summary">Tea Summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia at, ratione recusandae voluptatum vero, qui temporibus tempora veritatis dolores maxime. Eius molestiae eum veniam reiciendis quae ipsa ad incidunt quis?</p>
+						<p id="shop">Shop: www.birdpick.com</p>
 					</span>
 				</div>
 				<div className="col l3 m3 s3">
