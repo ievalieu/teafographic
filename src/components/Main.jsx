@@ -18,3 +18,11 @@ class Main extends Component {
 export default Main;
 
 //Main will be the component the search results load into. So should be renamed?
+
+//App
+	//Header
+	//Main
+		//Search Bar Box
+		//Results Box
+			//Results
+	//Footer
