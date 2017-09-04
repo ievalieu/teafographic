@@ -6,7 +6,7 @@ import App from './App.jsx';
 export default () => {
 	return(
 		<Route path='/' component={App}>
-		
+			{console.log("route");}
 		</Route>
 	);
 };
