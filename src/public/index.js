@@ -6,6 +6,7 @@ const appEntry = {
 	<Router history={browserHistory}>
 		<Route path="/" component={App}>
 			<IndexRoute component={Home}/>
+			{console.log("index.js")}
 		</Route>
 	</Router>
 };

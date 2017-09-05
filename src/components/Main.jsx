@@ -1,4 +1,5 @@
 import React, { PropTypes, Component } from "react";
+import Resultbox from "../Results";
 
 class Main extends Component {
 	render() {
@@ -7,7 +8,8 @@ class Main extends Component {
 			<div class="row" style="margin: 0 0">
 				<div class="col l12 m12 s12">
 					<ul class="collapsible" data-collapsible="accordion" id="results">
-						<Results/>
+						<Navbar/>
+						<Resultbox/>
 					</ul>
 				</div>
 			</div>
