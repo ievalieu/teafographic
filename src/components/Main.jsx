@@ -1,5 +1,6 @@
 import React, { PropTypes, Component } from "react";
-import Resultbox from "../Results";
+import ResultBox from "./ResultBox.jsx";
+import Navbar from "./Navbar.jsx";
 
 class Main extends Component {
 	render() {
@@ -9,7 +10,7 @@ class Main extends Component {
 				<div class="col l12 m12 s12">
 					<ul class="collapsible" data-collapsible="accordion" id="results">
 						<Navbar/>
-						<Resultbox/>
+						<ResultBox/>
 					</ul>
 				</div>
 			</div>
