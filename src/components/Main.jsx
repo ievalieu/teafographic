@@ -3,6 +3,16 @@ import ResultBox from "./ResultBox.jsx";
 import Navbar from "./Navbar.jsx";
 
 class Main extends Component {
+	super() {
+		setState:{
+			name,
+			type,
+			caffeine,
+			benefits,
+			summary,
+			shop
+		}
+	},
 	render() {
 		<main class="container">
 			<div id="showstuff"></div>
@@ -10,7 +20,7 @@ class Main extends Component {
 				<div class="col l12 m12 s12">
 					<ul class="collapsible" data-collapsible="accordion" id="results">
 						<Navbar/>
-						<ResultBox/>
+						<ResultBox {} />
 					</ul>
 				</div>
 			</div>

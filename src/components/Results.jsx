@@ -3,7 +3,7 @@ import React, { PropTypes, Component } from "react";
 class Results extends Component {
 	render() {
 		<li>
-			<div className="collapsible-header"><i class="material-icons">filter_drama</i>Jasmine Pearl</div>
+			<div className="collapsible-header" id="name"><i class="material-icons">filter_drama</i>Jasmine Pearl</div>
 			<div className="collapsible-body">
 				<div className="row">
 				<div className="col l9 m9 s9">
@@ -25,7 +25,3 @@ class Results extends Component {
 };
 
 export default Results;
-
-
-//Each p tag will have props, from the search bar. 
-// p tag needs a function? search bar gets the results from the database. mysql?
