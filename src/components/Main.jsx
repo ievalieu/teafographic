@@ -43,3 +43,6 @@ export default Main;
 		//Results Box (inherit props from Main; send an object down with many results)
 			//Results (show props only)
 	//Footer
+
+//To Do:
+// Test React, deploy online, make example database, table;
