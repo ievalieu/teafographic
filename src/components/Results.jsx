@@ -22,6 +22,10 @@ class Results extends Component {
 			</div>
 		</li>
 	}
+	populate() {
+		//serves to populate the results with information. 
+		//var object;
+	}
 };
 
 export default Results;
