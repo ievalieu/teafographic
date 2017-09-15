@@ -7,7 +7,7 @@ module.exports = {
 		"./src/index.js"
 	],
 	output: {
-		path: path.join(__dirname, "src/dist"),
+		path: path.join(__dirname, "/src/dist"),
 		filename: "bundle.js",
 		publicPath: "/src/"
 	},
@@ -21,7 +21,7 @@ module.exports = {
 			{
 				test: /\.css$/,
 				loaders: ["style-loader", "css-loader"],
-				include: path.join(__dirname, "/src/public/assets/css")
+				include: path.join(__dirname, "/src/assets/css")
 			}
 		]
 	}

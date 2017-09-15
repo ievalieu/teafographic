@@ -1,35 +1,34 @@
 import React, { PropTypes, Component } from "react";
-import ResultBox from "./ResultBox.jsx";
-import SearchBarBox from "./SearchBarBox.jsx";
+// import ResultBox from "./ResultBox.jsx";
+// import SearchBarBox from "./SearchBarBox.jsx";
 
 class Main extends Component {
-	super() {
-		setState = {
-			name: "",
-			type: "",
-			caffeine: "",
-			benefits: [],
-			summary: "",
-			shop: []
-		}
-	},
+	// super() {
+	// 	setState = {
+	// 		name: "",
+	// 		type: "",
+	// 		caffeine: "",
+	// 		benefits: [],
+	// 		summary: "",
+	// 		shop: []
+	// 	}
+	// },
 	render() {
 		<main class="container">
 			<div id="showstuff"></div>
 			<div class="row" style="margin: 0 0">
 				<div class="col l12 m12 s12">
 					<ul class="collapsible" data-collapsible="accordion" id="results">
-						<Navbar/>
-						<ResultBox {this.props} />
+						
 					</ul>
 				</div>
 			</div>
 		</main>
 	},
-	searchEncyclopedia (term) {
-		setState; // fill state with current search results;
-		return;
-	}
+	// searchEncyclopedia (term) {
+	// 	setState; // fill state with current search results;
+	// 	return;
+	// }
 };
 
 export default Main;
