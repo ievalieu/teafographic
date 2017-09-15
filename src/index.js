@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Route, Router, browserHistory, IndexRoute } from "react-router";
-import Main from "./components/Main.jsx";
+import { Router, browserHistory } from "react-router";
+import makeRoutes from "./containers/route.js";
 
-const appEntry = {
-	<Router history={browserHistory}>
-		<Route path="/" component={App}>
-			<IndexRoute component={Main}/>
-		</Route>
+const appEntry = (
+	<Router history={ browserHistory }>
+		{makeRoutes()}
 	</Router>
-};
+);
 
 ReactDOM.render(appEntry, document.querySelector("#root"));

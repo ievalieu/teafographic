@@ -3,33 +3,23 @@ import React, { PropTypes, Component } from "react";
 // import SearchBarBox from "./SearchBarBox.jsx";
 
 class Main extends Component {
-	// super() {
-	// 	setState = {
-	// 		name: "",
-	// 		type: "",
-	// 		caffeine: "",
-	// 		benefits: [],
-	// 		summary: "",
-	// 		shop: []
-	// 	}
-	// },
+	
 	render() {
-		<main class="container">
-			<div id="showstuff"></div>
-			<div class="row" style="margin: 0 0">
-				<div class="col l12 m12 s12">
-					<ul class="collapsible" data-collapsible="accordion" id="results">
-						
-					</ul>
+		return(
+			<main className="container">
+				<div id="showstuff"></div>
+				<div className="row">
+					<div className="col l12 m12 s12">
+						<ul className="collapsible" data-collapsible="accordion" id="results">
+							<li>CatCatCat</li>
+						</ul>
+					</div>
 				</div>
-			</div>
-		</main>
-	},
-	// searchEncyclopedia (term) {
-	// 	setState; // fill state with current search results;
-	// 	return;
-	// }
-};
+			</main>
+		);
+	}
+	
+}
 
 export default Main;
 
@@ -45,3 +35,17 @@ export default Main;
 
 //To Do:
 // Test React, deploy online, make example database, table;
+// super() {
+	// 	setState = {
+	// 		name: "",
+	// 		type: "",
+	// 		caffeine: "",
+	// 		benefits: [],
+	// 		summary: "",
+	// 		shop: []
+	// 	}
+	// },
+// searchEncyclopedia (term) {
+	// 	setState; // fill state with current search results;
+	// 	return;
+	// }
