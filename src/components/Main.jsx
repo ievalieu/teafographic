@@ -7,7 +7,8 @@ class Main extends Component {
 	render() {
 		return(
 			<main className="container">
-				<div id="showstuff"></div>
+				<div id="showstuff">
+				<p>Tea infographics, your visual data resource for all things tea.</p></div>
 				<div className="row">
 					<div className="col l12 m12 s12">
 						<ul className="collapsible" data-collapsible="accordion" id="results">

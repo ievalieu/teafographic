@@ -27504,73 +27504,26 @@ var Header = function (_Component) {
 					),
 					_react2.default.createElement(
 						"a",
+						{ href: "#" },
+						"About"
+					),
+					_react2.default.createElement(
+						"a",
+						{ href: "#" },
+						"Blog"
+					),
+					_react2.default.createElement(
+						"a",
+						{ href: "#" },
+						"Login"
+					),
+					_react2.default.createElement(
+						"a",
 						{ href: "#", "data-activates": "mobile-demo", className: "button-collapse" },
 						_react2.default.createElement(
 							"i",
 							{ className: "material-icons" },
 							"menu"
-						)
-					),
-					_react2.default.createElement(
-						"ul",
-						{ className: "left hide-on-med-and-down" },
-						_react2.default.createElement(
-							"li",
-							null,
-							_react2.default.createElement(
-								"a",
-								{ href: "sass.html" },
-								"Tea"
-							)
-						),
-						_react2.default.createElement(
-							"li",
-							null,
-							_react2.default.createElement(
-								"a",
-								{ href: "badges.html" },
-								"Herbs"
-							)
-						),
-						_react2.default.createElement(
-							"li",
-							null,
-							_react2.default.createElement(
-								"a",
-								{ href: "collapsible.html" },
-								"About"
-							)
-						)
-					),
-					_react2.default.createElement(
-						"ul",
-						{ className: "side-nav", id: "mobile-demo" },
-						_react2.default.createElement(
-							"li",
-							null,
-							_react2.default.createElement(
-								"a",
-								{ href: "sass.html" },
-								"Tea"
-							)
-						),
-						_react2.default.createElement(
-							"li",
-							null,
-							_react2.default.createElement(
-								"a",
-								{ href: "badges.html" },
-								"Herbs"
-							)
-						),
-						_react2.default.createElement(
-							"li",
-							null,
-							_react2.default.createElement(
-								"a",
-								{ href: "collapsible.html" },
-								"About"
-							)
 						)
 					)
 				)
@@ -27588,6 +27541,25 @@ exports.default = Header;
 // style="font-family: 'Lato', sans-serif; font-weight: 200"
 // style="font-family: 'Lato', sans-serif; font-weight: 200"
 // style="font-family: 'Lato', sans-serif; font-weight: 200"
+// style="text-align: left; font-family: 'Abel', sans-serif; font-size: 30px"
+
+
+//SITE MAP
+/*
+1. Landing
+	Hero(subscribe, features), Packages, Shop, Blog, Pre-footer Hero, Footer 
+2. Login/Sign up: Modal
+3. Quizzes: Modal
+4. Packages: 1, 2, 3, 4
+5. Shop Catalog
+6. Cart Page, modal
+7. Blog
+8. Generic Info Pages from Footer: Disclaimer, About, Jobs
+9. Support FAQ
+10. Contact Modal
+11. Connect sidebar
+*/
+//
 
 /***/ }),
 /* 246 */
@@ -27624,7 +27596,7 @@ exports = module.exports = __webpack_require__(248)(undefined);
 
 
 // module
-exports.push([module.i, "nav {\n\tbackground: black;\n}\n#logo {\n\ttext-align: center; \n\tflex: 1; \n\tfont-size: 60px;  \n\tfont-family: 'Abril Fatface', cursive;\n}", ""]);
+exports.push([module.i, "nav {\n\tbackground: black;\n}\n#logo {\n\ttext-align: left; \n\tflex: 1; \n\tfont-size: 36px; \n\tfont-family: 'Abril Fatface', cursive;\n}", ""]);
 
 // exports
 
@@ -28292,7 +28264,15 @@ var Main = function (_Component) {
 			return _react2.default.createElement(
 				"main",
 				{ className: "container" },
-				_react2.default.createElement("div", { id: "showstuff" }),
+				_react2.default.createElement(
+					"div",
+					{ id: "showstuff" },
+					_react2.default.createElement(
+						"p",
+						null,
+						"Tea infographics, your visual data resource for all things tea."
+					)
+				),
 				_react2.default.createElement(
 					"div",
 					{ className: "row" },
