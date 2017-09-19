@@ -27374,13 +27374,23 @@ var _Main = __webpack_require__(253);
 
 var _Main2 = _interopRequireDefault(_Main);
 
+var _About = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../components/About.jsx\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+var _About2 = _interopRequireDefault(_About);
+
+var _Blog = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../components/Blog.jsx\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+var _Blog2 = _interopRequireDefault(_Blog);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = function () {
 	return _react2.default.createElement(
 		_reactRouter.Route,
 		{ path: '/', component: _App2.default },
-		_react2.default.createElement(_reactRouter.IndexRoute, { component: _Main2.default })
+		_react2.default.createElement(_reactRouter.IndexRoute, { component: _Main2.default }),
+		_react2.default.createElement(_reactRouter.Route, { path: '/about', component: _About2.default }),
+		_react2.default.createElement(_reactRouter.Route, { path: '/blog', component: _Blog2.default })
 	);
 };
 
