@@ -9,8 +9,7 @@ class Hero extends Component {
 			</div>
 		);
 	}
-	
-}
+};
 
 export default Hero;
 
