@@ -28285,16 +28285,20 @@ var Header = function (_Component) {
 		key: "render",
 		value: function render() {
 			return _react2.default.createElement(
-				"nav",
+				"header",
 				null,
 				_react2.default.createElement(
 					"div",
-					{ className: "nav-wrapper" },
+					null,
 					_react2.default.createElement(
 						"a",
 						{ href: "/", id: "logo" },
 						"TEAFOGRAPHIC"
-					),
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					null,
 					_react2.default.createElement(
 						"a",
 						{ href: "/about" },
@@ -28309,15 +28313,6 @@ var Header = function (_Component) {
 						"a",
 						{ href: "#" },
 						"Login"
-					),
-					_react2.default.createElement(
-						"a",
-						{ href: "#", "data-activates": "mobile-demo", className: "button-collapse" },
-						_react2.default.createElement(
-							"i",
-							{ className: "material-icons" },
-							"menu"
-						)
 					)
 				)
 			);
@@ -28526,7 +28521,7 @@ exports = module.exports = __webpack_require__(248)(undefined);
 
 
 // module
-exports.push([module.i, "div {\n\tborder: 1px solid red;\n}", ""]);
+exports.push([module.i, "div {\n\t\n}", ""]);
 
 // exports
 
