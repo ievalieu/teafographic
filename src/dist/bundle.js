@@ -28427,7 +28427,7 @@ exports = module.exports = __webpack_require__(248)(undefined);
 
 
 // module
-exports.push([module.i, "#logo {\n\ttext-align: left; \n\tflex: 1; \n\tfont-size: 36px; \n\tfont-family: 'Abril Fatface', cursive;\n}\n/*\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"text-align: left; font-family: 'Abel', sans-serif; font-size: 30px\"*/", ""]);
+exports.push([module.i, "#logo {\n\ttext-align: left; \n\tflex: 1; \n\tfont-size: 36px; \n\t/*font-family: 'Abril Fatface', cursive;*/\n}\nheader {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center;\n\tbox-shadow: 1px 1px 1px #ccc;\n\t/*font-family: 'Abel', sans-serif;*/\n}\nheader div {\n\tmargin: 10px;\n}\nheader a {\n\tmargin-right: 10px;\n}\n/*\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"text-align: left; font-family: 'Abel', sans-serif; font-size: 30px\"*/", ""]);
 
 // exports
 
