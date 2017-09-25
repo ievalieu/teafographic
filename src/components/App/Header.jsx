@@ -6,7 +6,7 @@ class Header extends Component {
 		return(
 			<header>
 				<div>
-					<a href="/" id="logo">TEAFOGRAPHIC</a>
+					<a href="/" id="logo">teafographic</a>
 				</div>
 				<div>
 					<a href="/about">About</a>

@@ -27908,7 +27908,7 @@ var Header = function (_Component) {
 					_react2.default.createElement(
 						"a",
 						{ href: "/", id: "logo" },
-						"TEAFOGRAPHIC"
+						"teafographic"
 					)
 				),
 				_react2.default.createElement(
@@ -27976,7 +27976,7 @@ exports = module.exports = __webpack_require__(71)(undefined);
 
 
 // module
-exports.push([module.i, "#logo {\n\ttext-align: left; \n\tflex: 1; \n\tfont-size: 36px; \n\tfont-family: 'Abel', sans-serif;\n}\nheader {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center;\n\tbox-shadow: 1px 1px 1px #ccc;\n\tfont-family: 'Abel', sans-serif;\n}\nheader div {\n\tmargin: 10px;\n}\nheader a {\n\tmargin-right: 15px;\n}\n/*\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"text-align: left; font-family: 'Abel', sans-serif; font-size: 30px\"*/", ""]);
+exports.push([module.i, "header {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center;\n\tbox-shadow: 1px 1px 1px #ccc;\n\tfont-family: 'Dosis', sans-serif;\n}\nheader div {\n\tmargin: 10px;\n}\nheader a {\n\tmargin-right: 15px;\n\tcolor: black;\n}\n#logo {\n\ttext-align: left; \n\tflex: 1; \n\tfont-size: 36px; \n\tfont-family: 'Dosis', sans-serif;\n}\n/*\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"text-align: left; font-family: 'Abel', sans-serif; font-size: 30px\"*/", ""]);
 
 // exports
 
@@ -28297,11 +28297,21 @@ var Hero = function (_Component) {
 			return _react2.default.createElement(
 				"div",
 				{ className: "hero" },
-				_react2.default.createElement("img", { id: "hero", src: "#", alt: "#" }),
+				_react2.default.createElement("img", { src: "#", alt: "#" }),
+				_react2.default.createElement(
+					"h1",
+					null,
+					"Custom Tea Subscription"
+				),
 				_react2.default.createElement(
 					"p",
-					{ className: "hero-description" },
+					null,
 					"Tea infographics, your visual data resource for all things tea."
+				),
+				_react2.default.createElement(
+					"button",
+					null,
+					"GET STARTED"
 				)
 			);
 		}
@@ -28351,7 +28361,7 @@ exports = module.exports = __webpack_require__(71)(undefined);
 
 
 // module
-exports.push([module.i, ".hero {\n\tborder: 1px solid pink;\n\tdisplay: block;\n\tbackground: grey;\n}\n#hero {\n\tborder: 1px solid red;\n\tdisplay: block;\n\twidth: 100%;\n\theight: 500px;\n\tbackground: black;\n}\n.hero-description {\n\tcolor: white;\n\tposition: absolute;\n\ttext-align: center;\n\ttop: 150px;\n}\n", ""]);
+exports.push([module.i, ".hero {\n\tborder: 1px solid pink;\n\tdisplay: flex;\n\tflex-flow: column;\n\tjustify-content: center;\n\talign-items: center;\n\tbackground: #3b5249;\n\theight: 450px;\n\twidth: 100%;\n\tcolor: #fff;\n}\n.hero img {\n\tborder: 1px solid red;\n\twidth: 150px;\n\theight: 150px;\n}\n.hero h1{\n\ttext-align: center;\n\twidth: 100%;\n}\n.hero p {\n\tfont-size: 20px;\n}\n.hero button {\n\tbackground: #fac7c6;\n\tcolor: #000;\n\twidth: 150px;\n\theight: 50px;\n\tborder-radius: 5px;\n\tborder: none;\n\tbox-shadow: 1px 1px 1px #000;\n}", ""]);
 
 // exports
 

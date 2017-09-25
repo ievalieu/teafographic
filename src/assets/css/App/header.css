@@ -1,21 +1,22 @@
-#logo {
-	text-align: left; 
-	flex: 1; 
-	font-size: 36px; 
-	font-family: 'Abel', sans-serif;
-}
 header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	box-shadow: 1px 1px 1px #ccc;
-	font-family: 'Abel', sans-serif;
+	font-family: 'Dosis', sans-serif;
 }
 header div {
 	margin: 10px;
 }
 header a {
 	margin-right: 15px;
+	color: black;
+}
+#logo {
+	text-align: left; 
+	flex: 1; 
+	font-size: 36px; 
+	font-family: 'Dosis', sans-serif;
 }
 /*
 // style="font-family: 'Lato', sans-serif; font-weight: 200"
