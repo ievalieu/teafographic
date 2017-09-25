@@ -28140,7 +28140,6 @@ var Footer = function (_Component) {
 ;
 
 exports.default = Footer;
-// style="margin: 0 0"
 
 /***/ }),
 /* 252 */
@@ -28226,7 +28225,27 @@ var Landing = function (_Component) {
 			return _react2.default.createElement(
 				"main",
 				null,
-				_react2.default.createElement(_Hero2.default, null)
+				_react2.default.createElement(_Hero2.default, null),
+				_react2.default.createElement(
+					"div",
+					null,
+					"Packages Module"
+				),
+				_react2.default.createElement(
+					"div",
+					null,
+					"Shop Module"
+				),
+				_react2.default.createElement(
+					"div",
+					null,
+					"Blog Module"
+				),
+				_react2.default.createElement(
+					"div",
+					null,
+					"Advertisement Module"
+				)
 			);
 		}
 	}]);
@@ -28277,11 +28296,11 @@ var Hero = function (_Component) {
 		value: function render() {
 			return _react2.default.createElement(
 				"div",
-				null,
+				{ className: "hero" },
 				_react2.default.createElement("img", { id: "hero", src: "#", alt: "#" }),
 				_react2.default.createElement(
 					"p",
-					null,
+					{ className: "hero-description" },
 					"Tea infographics, your visual data resource for all things tea."
 				)
 			);
@@ -28332,7 +28351,7 @@ exports = module.exports = __webpack_require__(71)(undefined);
 
 
 // module
-exports.push([module.i, "#hero {\n\tborder: 1px solid red;\n\twidth: 500px;\n\theight: 250px;\n\tbackground: black;\n}", ""]);
+exports.push([module.i, ".hero {\n\tborder: 1px solid pink;\n\tdisplay: block;\n\tbackground: grey;\n}\n#hero {\n\tborder: 1px solid red;\n\tdisplay: block;\n\twidth: 100%;\n\theight: 500px;\n\tbackground: black;\n}\n.hero-description {\n\tcolor: white;\n\tposition: absolute;\n\ttext-align: center;\n\ttop: 150px;\n}\n", ""]);
 
 // exports
 

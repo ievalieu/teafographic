@@ -5,9 +5,9 @@ class Hero extends Component {
 	
 	render() {
 		return(
-			<div>
+			<div className="hero">
 				<img id="hero" src="#" alt="#" />
-				<p>Tea infographics, your visual data resource for all things tea.</p>
+				<p className="hero-description">Tea infographics, your visual data resource for all things tea.</p>
 			</div>
 		);
 	}

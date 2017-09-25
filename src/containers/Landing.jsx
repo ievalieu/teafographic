@@ -6,7 +6,10 @@ class Landing extends Component {
 		return(
 			<main>
 				<Hero/>
-				
+				<div>Packages Module</div>
+				<div>Shop Module</div>
+				<div>Blog Module</div>
+				<div>Advertisement Module</div>
 			</main>
 		);
 	}

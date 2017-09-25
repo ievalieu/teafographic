@@ -16,4 +16,3 @@ class Footer extends Component {
 };
 
 export default Footer;
-// style="margin: 0 0"
