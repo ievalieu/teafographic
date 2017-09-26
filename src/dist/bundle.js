@@ -27976,7 +27976,7 @@ exports = module.exports = __webpack_require__(71)(undefined);
 
 
 // module
-exports.push([module.i, "header {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center;\n\tbox-shadow: 1px 1px 1px #ccc;\n\tfont-family: 'Dosis', sans-serif;\n}\nheader div {\n\tmargin: 10px;\n}\nheader a {\n\tmargin-right: 15px;\n\tcolor: black;\n}\n#logo {\n\ttext-align: left; \n\tflex: 1; \n\tfont-size: 36px; \n\tfont-family: 'Dosis', sans-serif;\n}\n/*\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"text-align: left; font-family: 'Abel', sans-serif; font-size: 30px\"*/", ""]);
+exports.push([module.i, "header {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center;\n\tbox-shadow: 1px 1px 1px #000;\n\tfont-family: 'Dosis', sans-serif;\n}\nheader div {\n\tmargin: 10px;\n}\nheader a {\n\tmargin-right: 15px;\n\tcolor: black;\n}\n#logo {\n\ttext-align: left; \n\tflex: 1; \n\tfont-size: 28px;\n\tfont-weight: 100; \n\tfont-family: 'Dosis', sans-serif;\n}\n/*\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"text-align: left; font-family: 'Abel', sans-serif; font-size: 30px\"*/", ""]);
 
 // exports
 
@@ -28093,6 +28093,8 @@ var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
+__webpack_require__(262);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -28115,19 +28117,63 @@ var Footer = function (_Component) {
 		value: function render() {
 			return _react2.default.createElement(
 				"footer",
-				{ className: "page-footer teal" },
+				null,
 				_react2.default.createElement(
 					"div",
-					{ className: "footer-copyright" },
+					null,
 					_react2.default.createElement(
-						"div",
-						{ className: "container" },
-						"\xA9 2017 Eva Lieu",
-						_react2.default.createElement(
-							"a",
-							{ className: "grey-text text-lighten-4 right", href: "#!" },
-							"More Links"
-						)
+						"a",
+						{ href: "#" },
+						"About Us"
+					),
+					_react2.default.createElement(
+						"a",
+						{ href: "#" },
+						"Jobs"
+					),
+					_react2.default.createElement(
+						"a",
+						{ href: "#" },
+						"Privacy Terms"
+					),
+					_react2.default.createElement(
+						"a",
+						{ href: "#" },
+						"Support Portal"
+					),
+					_react2.default.createElement(
+						"a",
+						{ href: "#" },
+						"FAQS"
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					null,
+					_react2.default.createElement(
+						"a",
+						{ href: "#" },
+						"Facebook"
+					),
+					_react2.default.createElement(
+						"a",
+						{ href: "#" },
+						"Instagram"
+					),
+					_react2.default.createElement(
+						"a",
+						{ href: "#" },
+						"Pinterest"
+					),
+					_react2.default.createElement(
+						"a",
+						{ href: "#" },
+						"Twitter"
+					),
+					_react2.default.createElement(
+						"a",
+						{ href: "#" },
+						"Blog"
 					)
 				)
 			);
@@ -28176,7 +28222,7 @@ exports = module.exports = __webpack_require__(71)(undefined);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, "html {\n\theight: 100%;\n}\nbody {\n\tdisplay: flex;\n\tflex-direction: column;\n\tmin-height: 100%;\n}", ""]);
 
 // exports
 
@@ -28361,7 +28407,7 @@ exports = module.exports = __webpack_require__(71)(undefined);
 
 
 // module
-exports.push([module.i, ".hero {\n\tborder: 1px solid pink;\n\tdisplay: flex;\n\tflex-flow: column;\n\tjustify-content: center;\n\talign-items: center;\n\tbackground: #3b5249;\n\theight: 450px;\n\twidth: 100%;\n\tcolor: #fff;\n}\n.hero img {\n\tborder: 1px solid red;\n\twidth: 150px;\n\theight: 150px;\n}\n.hero h1{\n\ttext-align: center;\n\twidth: 100%;\n}\n.hero p {\n\tfont-size: 20px;\n}\n.hero button {\n\tbackground: #fac7c6;\n\tcolor: #000;\n\twidth: 150px;\n\theight: 50px;\n\tborder-radius: 5px;\n\tborder: none;\n\tbox-shadow: 1px 1px 1px #000;\n}", ""]);
+exports.push([module.i, ".hero {\n\tdisplay: flex;\n\tflex-flow: column;\n\tjustify-content: center;\n\talign-items: center;\n\tbackground: #3b5249;\n\theight: 450px;\n\twidth: 100%;\n\tcolor: #fff;\n}\n.hero img {\n\tborder: 1px solid red;\n\twidth: 150px;\n\theight: 150px;\n}\n.hero h1{\n\ttext-align: center;\n\twidth: 100%;\n}\n.hero p {\n\tfont-size: 20px;\n}\n.hero button {\n\tbackground: #fac7c6;\n\tcolor: #000;\n\twidth: 150px;\n\theight: 50px;\n\tborder-radius: 5px;\n\tborder: none;\n\tbox-shadow: 1px 1px 1px #000;\n}", ""]);
 
 // exports
 
@@ -28568,6 +28614,46 @@ var Shop = function (_Component) {
 }(_react.Component);
 
 exports.default = Shop;
+
+/***/ }),
+/* 262 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(263);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(72)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./footer.css", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!./footer.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 263 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(71)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "footer {\n\tbackground: #acafaa;\n\tbottom: 0;\n\tleft: 0;\n\tmargin: 0;\n\tpadding: 10px;\n\tposition: fixed;\n\tright: 0;\n\tz-index: 2;\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-between;\n}\nfooter div {\n\tdisplay: flex;\n\tjustify-content: space-around;\n\twidth: 35%;\n\tfont-size: 12px;\n}\nfooter a {\n\tcolor: #000;\n}", ""]);
+
+// exports
+
 
 /***/ })
 /******/ ]);

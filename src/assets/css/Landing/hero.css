@@ -1,5 +1,4 @@
 .hero {
-	border: 1px solid pink;
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
