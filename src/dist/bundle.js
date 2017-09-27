@@ -28272,26 +28272,10 @@ var Landing = function (_Component) {
 				"main",
 				null,
 				_react2.default.createElement(_Hero2.default, null),
-				_react2.default.createElement(
-					"div",
-					null,
-					"Packages Module"
-				),
-				_react2.default.createElement(
-					"div",
-					null,
-					"Shop Module"
-				),
-				_react2.default.createElement(
-					"div",
-					null,
-					"Blog Module"
-				),
-				_react2.default.createElement(
-					"div",
-					null,
-					"Advertisement Module"
-				)
+				_react2.default.createElement("Package-Module", null),
+				_react2.default.createElement("Shop-Module", null),
+				_react2.default.createElement("Blog-Module", null),
+				_react2.default.createElement("Ad-Module", null)
 			);
 		}
 	}]);
@@ -28650,7 +28634,7 @@ exports = module.exports = __webpack_require__(71)(undefined);
 
 
 // module
-exports.push([module.i, "footer {\n\tbackground: #acafaa;\n\tbottom: 0;\n\tleft: 0;\n\tmargin: 0;\n\tpadding: 10px;\n\tposition: fixed;\n\tright: 0;\n\tz-index: 2;\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-between;\n}\nfooter div {\n\tdisplay: flex;\n\tjustify-content: space-around;\n\twidth: 35%;\n\tfont-size: 12px;\n}\nfooter a {\n\tcolor: #000;\n}", ""]);
+exports.push([module.i, "footer {\n\tbackground: #acafaa;\n\tbottom: 0;\n\tleft: 0;\n\tmargin: 0;\n\tpadding: 15px;\n\tposition: fixed;\n\tright: 0;\n\tz-index: 2;\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-between;\n}\nfooter div {\n\tdisplay: flex;\n\tjustify-content: space-around;\n\twidth: 35%;\n\tfont-size: 12px;\n}\nfooter a {\n\tcolor: #000;\n}", ""]);
 
 // exports
 
