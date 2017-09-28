@@ -1,8 +1,6 @@
-html {
+main {
 	height: 100%;
-}
-body {
 	display: flex;
-	flex-direction: column;
-	min-height: 100%;
+	flex-flow: column;
+	flex: 1 0 auto;
 }

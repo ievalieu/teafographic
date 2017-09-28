@@ -1,0 +1,7 @@
+.shop-module {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	height: 300px;
+	background: #fff;
+}

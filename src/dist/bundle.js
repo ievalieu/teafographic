@@ -27827,7 +27827,7 @@ var App = function (_Component) {
 		key: 'render',
 		value: function render() {
 			return _react2.default.createElement(
-				'div',
+				'main',
 				null,
 				_react2.default.createElement(_Header2.default, null),
 				this.props.children,
@@ -28222,7 +28222,7 @@ exports = module.exports = __webpack_require__(71)(undefined);
 
 
 // module
-exports.push([module.i, "html {\n\theight: 100%;\n}\nbody {\n\tdisplay: flex;\n\tflex-direction: column;\n\tmin-height: 100%;\n}", ""]);
+exports.push([module.i, "main {\n\theight: 100%;\n\tdisplay: flex;\n\tflex-flow: column;\n\tflex: 1 0 auto;\n}", ""]);
 
 // exports
 
@@ -28244,9 +28244,27 @@ var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
+__webpack_require__(276);
+
 var _Hero = __webpack_require__(255);
 
 var _Hero2 = _interopRequireDefault(_Hero);
+
+var _BlogModule = __webpack_require__(267);
+
+var _BlogModule2 = _interopRequireDefault(_BlogModule);
+
+var _PackageModule = __webpack_require__(270);
+
+var _PackageModule2 = _interopRequireDefault(_PackageModule);
+
+var _ShopModule = __webpack_require__(273);
+
+var _ShopModule2 = _interopRequireDefault(_ShopModule);
+
+var _AdModule = __webpack_require__(264);
+
+var _AdModule2 = _interopRequireDefault(_AdModule);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28269,13 +28287,13 @@ var Landing = function (_Component) {
 		key: "render",
 		value: function render() {
 			return _react2.default.createElement(
-				"main",
+				"div",
 				null,
 				_react2.default.createElement(_Hero2.default, null),
-				_react2.default.createElement("Package-Module", null),
-				_react2.default.createElement("Shop-Module", null),
-				_react2.default.createElement("Blog-Module", null),
-				_react2.default.createElement("Ad-Module", null)
+				_react2.default.createElement(_PackageModule2.default, null),
+				_react2.default.createElement(_ShopModule2.default, null),
+				_react2.default.createElement(_BlogModule2.default, null),
+				_react2.default.createElement(_AdModule2.default, null)
 			);
 		}
 	}]);
@@ -28634,7 +28652,442 @@ exports = module.exports = __webpack_require__(71)(undefined);
 
 
 // module
-exports.push([module.i, "footer {\n\tbackground: #acafaa;\n\tbottom: 0;\n\tleft: 0;\n\tmargin: 0;\n\tpadding: 15px;\n\tposition: fixed;\n\tright: 0;\n\tz-index: 2;\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-between;\n}\nfooter div {\n\tdisplay: flex;\n\tjustify-content: space-around;\n\twidth: 35%;\n\tfont-size: 12px;\n}\nfooter a {\n\tcolor: #000;\n}", ""]);
+exports.push([module.i, "footer {\n\tbackground: #acafaa;\n\tmargin: 0;\n\tpadding: 15px;\n\tz-index: 2;\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-between;\n}\nfooter div {\n\tdisplay: flex;\n\tjustify-content: space-around;\n\twidth: 35%;\n\tfont-size: 12px;\n}\nfooter a {\n\tcolor: #000;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 264 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(6);
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(265);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var AdModule = function (_Component) {
+	_inherits(AdModule, _Component);
+
+	function AdModule() {
+		_classCallCheck(this, AdModule);
+
+		return _possibleConstructorReturn(this, (AdModule.__proto__ || Object.getPrototypeOf(AdModule)).apply(this, arguments));
+	}
+
+	_createClass(AdModule, [{
+		key: "render",
+		value: function render() {
+			return _react2.default.createElement(
+				"div",
+				{ className: "ad-module" },
+				"Ad Module"
+			);
+		}
+	}]);
+
+	return AdModule;
+}(_react.Component);
+
+;
+
+exports.default = AdModule;
+
+/***/ }),
+/* 265 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(266);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(72)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./ad-module.css", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!./ad-module.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 266 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(71)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".ad-module {\n\theight: 300px;\n\twidth: 100%;\n\tbackground: #fff;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 267 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(6);
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(268);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var BlogModule = function (_Component) {
+	_inherits(BlogModule, _Component);
+
+	function BlogModule() {
+		_classCallCheck(this, BlogModule);
+
+		return _possibleConstructorReturn(this, (BlogModule.__proto__ || Object.getPrototypeOf(BlogModule)).apply(this, arguments));
+	}
+
+	_createClass(BlogModule, [{
+		key: "render",
+		value: function render() {
+			return _react2.default.createElement(
+				"div",
+				{ className: "blog-module" },
+				"Blog Module"
+			);
+		}
+	}]);
+
+	return BlogModule;
+}(_react.Component);
+
+;
+
+exports.default = BlogModule;
+
+/***/ }),
+/* 268 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(269);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(72)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./blog-module.css", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!./blog-module.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 269 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(71)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".blog-module {\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-around;\n\theight: 300px;\n\tbackground: #ccc;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 270 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(6);
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(271);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var PackageModule = function (_Component) {
+	_inherits(PackageModule, _Component);
+
+	function PackageModule() {
+		_classCallCheck(this, PackageModule);
+
+		return _possibleConstructorReturn(this, (PackageModule.__proto__ || Object.getPrototypeOf(PackageModule)).apply(this, arguments));
+	}
+
+	_createClass(PackageModule, [{
+		key: "render",
+		value: function render() {
+			return _react2.default.createElement(
+				"div",
+				{ className: "package-module" },
+				_react2.default.createElement(
+					"button",
+					null,
+					"Package 1"
+				),
+				_react2.default.createElement(
+					"button",
+					null,
+					"Package 2"
+				),
+				_react2.default.createElement(
+					"button",
+					null,
+					"Package 3"
+				),
+				_react2.default.createElement(
+					"button",
+					null,
+					"Package 4"
+				)
+			);
+		}
+	}]);
+
+	return PackageModule;
+}(_react.Component);
+
+;
+
+exports.default = PackageModule;
+
+/***/ }),
+/* 271 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(272);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(72)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./package-module.css", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!./package-module.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 272 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(71)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".package-module {\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-around;\n\talign-items: center;\n\theight: 200px;\n\tbackground: #ccc;\n}\n.package-module button {\n\tbackground: white;\n\tborder: 1px solid #ddd;\n\theight: 150px;\n\twidth: 250px;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 273 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(6);
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(274);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ShopModule = function (_Component) {
+	_inherits(ShopModule, _Component);
+
+	function ShopModule() {
+		_classCallCheck(this, ShopModule);
+
+		return _possibleConstructorReturn(this, (ShopModule.__proto__ || Object.getPrototypeOf(ShopModule)).apply(this, arguments));
+	}
+
+	_createClass(ShopModule, [{
+		key: "render",
+		value: function render() {
+			return _react2.default.createElement(
+				"div",
+				{ className: "shop-module" },
+				"Shop Module"
+			);
+		}
+	}]);
+
+	return ShopModule;
+}(_react.Component);
+
+;
+
+exports.default = ShopModule;
+
+/***/ }),
+/* 274 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(275);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(72)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./shop-module.css", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!./shop-module.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 275 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(71)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".shop-module {\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-around;\n\theight: 300px;\n\tbackground: #fff;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 276 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(277);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(72)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./landing.css", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!./landing.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 277 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(71)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
 
 // exports
 
