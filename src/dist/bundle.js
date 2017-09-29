@@ -29000,7 +29000,25 @@ var ShopModule = function (_Component) {
 			return _react2.default.createElement(
 				"div",
 				{ className: "shop-module" },
-				"Shop Module"
+				_react2.default.createElement(
+					"div",
+					null,
+					_react2.default.createElement("img", { src: "#", alt: "Shop Image" })
+				),
+				_react2.default.createElement(
+					"div",
+					null,
+					_react2.default.createElement(
+						"p",
+						null,
+						"Don't want to buy a subscription, but interested in our inventory? Visit our online store!"
+					),
+					_react2.default.createElement(
+						"button",
+						null,
+						"SHOP NOW"
+					)
+				)
 			);
 		}
 	}]);
@@ -29047,7 +29065,7 @@ exports = module.exports = __webpack_require__(71)(undefined);
 
 
 // module
-exports.push([module.i, ".shop-module {\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-around;\n\theight: 300px;\n\tbackground: #fff;\n}", ""]);
+exports.push([module.i, ".shop-module {\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-around;\n\talign-items: center;\n\theight: 300px;\n\tbackground: #fff;\n}\n.shop-module div {\n\twidth: 45%;\n\theight: 250px;\n\tborder: 1px solid red;\n}\n.shop-module img {\n\tborder: 1px solid black;\n}\n.shop-module button {\n\tbackground: #fac7c6;\n\tcolor: #000;\n\twidth: 125px;\n\theight: 50px;\n\tborder-radius: 5px;\n\tborder: none;\n\tbox-shadow: 1px 1px 1px #000;\n\n}", ""]);
 
 // exports
 

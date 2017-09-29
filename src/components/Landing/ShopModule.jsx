@@ -6,7 +6,13 @@ class ShopModule extends Component {
 	render() {
 		return(
 			<div className="shop-module">
-				Shop Module
+				<div>
+					<img src="#" alt="Shop Image"/>
+				</div>
+				<div>
+					<p>Don't want to buy a subscription, but interested in our inventory? Visit our online store!</p>
+					<button>SHOP NOW</button>
+				</div>
 			</div>
 		);
 	}
