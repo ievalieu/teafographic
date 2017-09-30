@@ -13,7 +13,7 @@ class Footer extends Component {
 					<a href="#">FAQS</a>
 				</div>
 				<div>
-					<a href="#">Facebook</a>
+					<a href="#"><img src="../../assets/icons/fb-logo.png" alt="facebook-url"/></a>
 					<a href="#">Instagram</a>
 					<a href="#">Pinterest</a>
 					<a href="#">Twitter</a>

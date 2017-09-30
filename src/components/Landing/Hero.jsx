@@ -1,8 +1,9 @@
 import React, { PropTypes, Component } from "react";
 import "../../assets/css/Landing/hero.css";
 
+
 class Hero extends Component {
-	
+
 	render() {
 		return(
 			<div className="hero">

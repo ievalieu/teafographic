@@ -5,6 +5,7 @@
 	align-items: center;
 	height: 200px;
 	background: #ccc;
+	border: 1px solid #aaa;
 }
 .package-module button {
 	background: white;
