@@ -27976,7 +27976,7 @@ exports = module.exports = __webpack_require__(17)(undefined);
 
 
 // module
-exports.push([module.i, "header {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center;\n\tbox-shadow: 1px 2px 1px #888;\n\tfont-family: 'Dosis', sans-serif;\n\tz-index: 2;\n}\nheader div {\n\tmargin: 10px;\n}\nheader a {\n\tmargin-right: 15px;\n\tcolor: black;\n}\n#logo {\n\ttext-align: left; \n\tflex: 1; \n\tfont-size: 28px;\n\tfont-weight: 100; \n\tfont-family: 'Dosis', sans-serif;\n}\n/*\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"text-align: left; font-family: 'Abel', sans-serif; font-size: 30px\"*/", ""]);
+exports.push([module.i, "header {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center;\n\tbox-shadow: 1px 2px 5px 3px #333;\n\tfont-family: 'Dosis', sans-serif;\n\tz-index: 2;\n}\nheader div {\n\tmargin: 10px;\n}\nheader a {\n\tmargin-right: 15px;\n\tcolor: black;\n}\n#logo {\n\ttext-align: left; \n\tflex: 1; \n\tfont-size: 28px;\n\tfont-weight: 100; \n\tfont-family: 'Dosis', sans-serif;\n}\n/*\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"font-family: 'Lato', sans-serif; font-weight: 200\"\n// style=\"text-align: left; font-family: 'Abel', sans-serif; font-size: 30px\"*/", ""]);
 
 // exports
 
@@ -28666,22 +28666,58 @@ var PackageModule = function (_Component) {
 				_react2.default.createElement(
 					"button",
 					null,
-					"Package 1"
+					_react2.default.createElement(
+						"h4",
+						null,
+						"Package 1"
+					),
+					_react2.default.createElement(
+						"p",
+						null,
+						"asdjf;lajsdf;lajsfl;jadl;fa;sdfj"
+					)
 				),
 				_react2.default.createElement(
 					"button",
 					null,
-					"Package 2"
+					_react2.default.createElement(
+						"h4",
+						null,
+						"Package 2"
+					),
+					_react2.default.createElement(
+						"p",
+						null,
+						"asdjf;lajsdf;lajsfl;jadl;fa;sdfj"
+					)
 				),
 				_react2.default.createElement(
 					"button",
 					null,
-					"Package 3"
+					_react2.default.createElement(
+						"h4",
+						null,
+						"Package 3"
+					),
+					_react2.default.createElement(
+						"p",
+						null,
+						"asdjf;lajsdf;lajsfl;jadl;fa;sdfj"
+					)
 				),
 				_react2.default.createElement(
 					"button",
 					null,
-					"Package 4"
+					_react2.default.createElement(
+						"h4",
+						null,
+						"Package 4"
+					),
+					_react2.default.createElement(
+						"p",
+						null,
+						"asdjf;lajsdf;lajsfl;jadl;fa;sdfj"
+					)
 				)
 			);
 		}
