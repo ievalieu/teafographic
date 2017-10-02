@@ -6,15 +6,15 @@ class BlogModule extends Component {
 	render() {
 		return(
 			<div className="blog-module">
-				<div>
-					<img src="#" alt="blog photo"/>
-				</div>
-				<div>
+				<div className="blog-module-text">
 					<form>
 						<h2>Follow our blog!</h2>
 						<p>Discover our tea lifestyle.</p>
 						<button>Subscribe</button>
 					</form>
+				</div>
+				<div className="blog-module-img">
+					<img src="#" alt="blog photo"/>
 				</div>
 			</div>
 		);

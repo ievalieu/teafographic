@@ -28544,12 +28544,7 @@ var BlogModule = function (_Component) {
 				{ className: "blog-module" },
 				_react2.default.createElement(
 					"div",
-					null,
-					_react2.default.createElement("img", { src: "#", alt: "blog photo" })
-				),
-				_react2.default.createElement(
-					"div",
-					null,
+					{ className: "blog-module-text" },
 					_react2.default.createElement(
 						"form",
 						null,
@@ -28569,6 +28564,11 @@ var BlogModule = function (_Component) {
 							"Subscribe"
 						)
 					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "blog-module-img" },
+					_react2.default.createElement("img", { src: "#", alt: "blog photo" })
 				)
 			);
 		}
@@ -28616,7 +28616,7 @@ exports = module.exports = __webpack_require__(17)(undefined);
 
 
 // module
-exports.push([module.i, ".blog-module {\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-between;\n\theight: 300px;\n\tbackground: #ccc;\n}\n.blog-module div {\n\tborder: 1px solid black;\n}\n.blog-module img {\n\twidth: 75%;\n}", ""]);
+exports.push([module.i, ".blog-module {\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-between;\n\theight: 300px;\n\tbackground: #fff;\n}\n.blog-module div {\n\tborder: 1px solid black;\n}\n.blog-module-img {\n\twidth: 75%;\n}\n.blog-module-text {\n\tflex-grow: 2;\n}\n.blog-module-text form {\n\tborder: 1px solid red;\n\theight: 100%;\n\tdisplay: flex;\n\tflex-flow: column;\n\tjustify-content: center;\n\talign-items: center;\n\talign-content: center;\n}", ""]);
 
 // exports
 
@@ -28667,9 +28667,9 @@ var PackageModule = function (_Component) {
 					"button",
 					null,
 					_react2.default.createElement(
-						"h4",
+						"h2",
 						null,
-						"Package 1"
+						"One-Time Special Occasion"
 					),
 					_react2.default.createElement(
 						"p",
@@ -28681,9 +28681,9 @@ var PackageModule = function (_Component) {
 					"button",
 					null,
 					_react2.default.createElement(
-						"h4",
+						"h2",
 						null,
-						"Package 2"
+						"3-Month Subscription"
 					),
 					_react2.default.createElement(
 						"p",
@@ -28695,9 +28695,9 @@ var PackageModule = function (_Component) {
 					"button",
 					null,
 					_react2.default.createElement(
-						"h4",
+						"h2",
 						null,
-						"Package 3"
+						"6-Month Subscription"
 					),
 					_react2.default.createElement(
 						"p",
@@ -28709,9 +28709,9 @@ var PackageModule = function (_Component) {
 					"button",
 					null,
 					_react2.default.createElement(
-						"h4",
+						"h2",
 						null,
-						"Package 4"
+						"12-Month Subscription"
 					),
 					_react2.default.createElement(
 						"p",
@@ -28814,12 +28814,17 @@ var ShopModule = function (_Component) {
 				{ className: "shop-module" },
 				_react2.default.createElement(
 					"div",
-					null,
+					{ className: "shop-module-img" },
 					_react2.default.createElement("img", { src: "#", alt: "Shop Image" })
 				),
 				_react2.default.createElement(
 					"div",
-					null,
+					{ className: "shop-module-text" },
+					_react2.default.createElement(
+						"h2",
+						null,
+						"Shop for Tea"
+					),
 					_react2.default.createElement(
 						"p",
 						null,
@@ -28877,7 +28882,7 @@ exports = module.exports = __webpack_require__(17)(undefined);
 
 
 // module
-exports.push([module.i, ".shop-module {\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-around;\n\talign-items: center;\n\theight: 300px;\n\tbackground: #fff;\n}\n.shop-module div {\n\twidth: 45%;\n\theight: 250px;\n\tborder: 1px solid red;\n}\n.shop-module img {\n\tborder: 1px solid black;\n}\n.shop-module button {\n\tbackground: #fac7c6;\n\tcolor: #000;\n\twidth: 125px;\n\theight: 50px;\n\tborder-radius: 5px;\n\tborder: none;\n\tbox-shadow: 1px 1px 1px #000;\n\n}", ""]);
+exports.push([module.i, ".shop-module {\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-around;\n\talign-items: center;\n\theight: 300px;\n\tbackground: #fff;\n}\n.shop-module div {\n\theight: 100%;\n}\n.shop-module button {\n\tbackground: #fac7c6;\n\tcolor: #000;\n\twidth: 125px;\n\theight: 50px;\n\tborder-radius: 5px;\n\tborder: none;\n\tbox-shadow: 1px 1px 1px #000;\n}\n.shop-module img {\n\tborder: 1px solid black;\n}\n.shop-module-img {\n\tborder: 1px solid red;\n\tbackground: #000;\n\twidth: 75%;\n}\n.shop-module-text {\n\tborder: 1px solid red;\n\tdisplay: flex;\n\tflex-grow: 2;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n}", ""]);
 
 // exports
 

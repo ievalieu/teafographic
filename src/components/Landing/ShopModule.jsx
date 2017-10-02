@@ -6,10 +6,11 @@ class ShopModule extends Component {
 	render() {
 		return(
 			<div className="shop-module">
-				<div>
+				<div className="shop-module-img">
 					<img src="#" alt="Shop Image"/>
 				</div>
-				<div>
+				<div className="shop-module-text">
+					<h2>Shop for Tea</h2>
 					<p>Don't want to buy a subscription, but interested in our inventory? Visit our online store!</p>
 					<button>SHOP NOW</button>
 				</div>

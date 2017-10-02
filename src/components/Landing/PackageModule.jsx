@@ -7,19 +7,19 @@ class PackageModule extends Component {
 		return(
 			<div className="package-module">
 				<button>
-					<h4>Package 1</h4>
+					<h2>One-Time Special Occasion</h2>
 					<p>asdjf;lajsdf;lajsfl;jadl;fa;sdfj</p>
 				</button>
 				<button>
-					<h4>Package 2</h4>
+					<h2>3-Month Subscription</h2>
 					<p>asdjf;lajsdf;lajsfl;jadl;fa;sdfj</p>
 				</button>
 				<button>
-					<h4>Package 3</h4>
+					<h2>6-Month Subscription</h2>
 					<p>asdjf;lajsdf;lajsfl;jadl;fa;sdfj</p>				
 				</button>
 				<button>
-					<h4>Package 4</h4>
+					<h2>12-Month Subscription</h2>
 					<p>asdjf;lajsdf;lajsfl;jadl;fa;sdfj</p>
 				</button>				
 			</div>

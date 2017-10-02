@@ -3,11 +3,23 @@
 	flex-flow: row;
 	justify-content: space-between;
 	height: 300px;
-	background: #ccc;
+	background: #fff;
 }
 .blog-module div {
 	border: 1px solid black;
 }
-.blog-module img {
+.blog-module-img {
 	width: 75%;
+}
+.blog-module-text {
+	flex-grow: 2;
+}
+.blog-module-text form {
+	border: 1px solid red;
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }

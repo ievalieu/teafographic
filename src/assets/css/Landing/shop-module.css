@@ -7,12 +7,7 @@
 	background: #fff;
 }
 .shop-module div {
-	width: 45%;
-	height: 250px;
-	border: 1px solid red;
-}
-.shop-module img {
-	border: 1px solid black;
+	height: 100%;
 }
 .shop-module button {
 	background: #fac7c6;
@@ -22,5 +17,20 @@
 	border-radius: 5px;
 	border: none;
 	box-shadow: 1px 1px 1px #000;
-
+}
+.shop-module img {
+	border: 1px solid black;
+}
+.shop-module-img {
+	border: 1px solid red;
+	background: #000;
+	width: 75%;
+}
+.shop-module-text {
+	border: 1px solid red;
+	display: flex;
+	flex-grow: 2;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
