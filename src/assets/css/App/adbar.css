@@ -1,0 +1,7 @@
+.adbar div {
+	height: 500px;
+	background: orange;
+	display: inline-block;
+	z-index: 5;
+flex: 1;
+}

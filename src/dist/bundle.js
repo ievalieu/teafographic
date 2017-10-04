@@ -27802,6 +27802,10 @@ var _Footer = __webpack_require__(251);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
+var _Adbar = __webpack_require__(279);
+
+var _Adbar2 = _interopRequireDefault(_Adbar);
+
 __webpack_require__(254);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -27830,6 +27834,7 @@ var App = function (_Component) {
 				'main',
 				null,
 				_react2.default.createElement(_Header2.default, null),
+				_react2.default.createElement(_Adbar2.default, null),
 				this.props.children,
 				_react2.default.createElement(_Footer2.default, null)
 			);
@@ -29183,6 +29188,104 @@ var Shop = function (_Component) {
 }(_react.Component);
 
 exports.default = Shop;
+
+/***/ }),
+/* 279 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(280);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Adbar = function (_Component) {
+	_inherits(Adbar, _Component);
+
+	function Adbar() {
+		_classCallCheck(this, Adbar);
+
+		return _possibleConstructorReturn(this, (Adbar.__proto__ || Object.getPrototypeOf(Adbar)).apply(this, arguments));
+	}
+
+	_createClass(Adbar, [{
+		key: "render",
+		value: function render() {
+			return _react2.default.createElement(
+				"div",
+				{ className: "adbar" },
+				_react2.default.createElement(
+					"p",
+					null,
+					"Free shipping over $75!"
+				)
+			);
+		}
+	}]);
+
+	return Adbar;
+}(_react.Component);
+
+;
+
+exports.default = Adbar;
+
+/***/ }),
+/* 280 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(281);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(18)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./adbar.css", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!./adbar.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 281 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(17)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".adbar div {\n\theight: 500px;\n\tbackground: orange;\n\tdisplay: inline-block;\n\tz-index: 5;\nflex: 1;\n}\n", ""]);
+
+// exports
+
 
 /***/ })
 /******/ ]);
