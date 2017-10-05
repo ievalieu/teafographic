@@ -5,7 +5,7 @@ class Adbar extends Component {
 	
 	render() {
 		return(
-			<div className="adbar">
+<div className="blog-module">
 				<p>Free shipping over $75!</p>
 			</div>
 		);

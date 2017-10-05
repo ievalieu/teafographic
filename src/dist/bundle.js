@@ -28621,7 +28621,7 @@ exports = module.exports = __webpack_require__(17)(undefined);
 
 
 // module
-exports.push([module.i, ".blog-module {\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-between;\n\theight: 300px;\n\tbackground: #fff;\n}\n.blog-module div {\n\tborder: 1px solid black;\n}\n.blog-module-img {\n\twidth: 75%;\n}\n.blog-module-text {\n\tflex-grow: 2;\n}\n.blog-module-text form {\n\tborder: 1px solid red;\n\theight: 100%;\n\tdisplay: flex;\n\tflex-flow: column;\n\tjustify-content: center;\n\talign-items: center;\n\talign-content: center;\n}", ""]);
+exports.push([module.i, ".blog-module {\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-between;\n\theight: 300px;\n\tbackground: #fff;\n}\n.blog-module div {\n\tborder: 1px solid black;\n\theight: 100%;\n}\n.blog-module-img {\n\tborder: 1px solid red;\n\tbackground: #000;\n\twidth: 65%;\n}\n.blog-module-text {\n\tflex-grow: 2;\n}\n.blog-module-text form {\n\tborder: 1px solid red;\n\theight: 100%;\n\tdisplay: flex;\n\tflex-flow: column;\n\tjustify-content: center;\n\talign-items: center;\n\talign-content: center;\n}", ""]);
 
 // exports
 
@@ -28887,7 +28887,7 @@ exports = module.exports = __webpack_require__(17)(undefined);
 
 
 // module
-exports.push([module.i, ".shop-module {\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-around;\n\talign-items: center;\n\theight: 300px;\n\tbackground: #fff;\n}\n.shop-module div {\n\theight: 100%;\n}\n.shop-module button {\n\tbackground: #fac7c6;\n\tcolor: #000;\n\twidth: 125px;\n\theight: 50px;\n\tborder-radius: 5px;\n\tborder: none;\n\tbox-shadow: 1px 1px 1px #000;\n}\n.shop-module img {\n\tborder: 1px solid black;\n}\n.shop-module-img {\n\tborder: 1px solid red;\n\tbackground: #000;\n\twidth: 75%;\n}\n.shop-module-text {\n\tborder: 1px solid red;\n\tdisplay: flex;\n\tflex-grow: 2;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n}", ""]);
+exports.push([module.i, ".shop-module {\n\tdisplay: flex;\n\tflex-flow: row;\n\tjustify-content: space-around;\n\talign-items: center;\n\theight: 300px;\n\tbackground: #fff;\n}\n.shop-module div {\n\theight: 100%;\n}\n.shop-module button {\n\tbackground: #fac7c6;\n\tcolor: #000;\n\twidth: 125px;\n\theight: 50px;\n\tborder-radius: 5px;\n\tborder: none;\n\tbox-shadow: 1px 1px 1px #000;\n}\n.shop-module-img {\n\tborder: 1px solid red;\n\tbackground: #000;\n\twidth: 75%;\n}\n.shop-module-text {\n\tborder: 1px solid red;\n\tdisplay: flex;\n\tflex-grow: 2;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n}", ""]);
 
 // exports
 
@@ -28933,7 +28933,7 @@ var AdModule = function (_Component) {
 		value: function render() {
 			return _react2.default.createElement(
 				"div",
-				{ className: "ad-module" },
+				null,
 				"Ad Module"
 			);
 		}
@@ -28981,7 +28981,7 @@ exports = module.exports = __webpack_require__(17)(undefined);
 
 
 // module
-exports.push([module.i, ".ad-module {\n\theight: 300px;\n\twidth: 100%;\n\tbackground: #fff;\n}", ""]);
+exports.push([module.i, ".ad-module div {\n\theight: 300px;\n\twidth: 100%;\n\tbackground: #fff;\n\tdisplay: flex;\n}", ""]);
 
 // exports
 
@@ -29230,7 +29230,7 @@ var Adbar = function (_Component) {
 		value: function render() {
 			return _react2.default.createElement(
 				"div",
-				{ className: "adbar" },
+				{ className: "blog-module" },
 				_react2.default.createElement(
 					"p",
 					null,
@@ -29282,7 +29282,7 @@ exports = module.exports = __webpack_require__(17)(undefined);
 
 
 // module
-exports.push([module.i, ".adbar div {\n\theight: 500px;\n\tbackground: orange;\n\tdisplay: inline-block;\n\tz-index: 5;\nflex: 1;\n}\n", ""]);
+exports.push([module.i, "", ""]);
 
 // exports
 

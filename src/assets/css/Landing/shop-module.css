@@ -18,9 +18,6 @@
 	border: none;
 	box-shadow: 1px 1px 1px #000;
 }
-.shop-module img {
-	border: 1px solid black;
-}
 .shop-module-img {
 	border: 1px solid red;
 	background: #000;

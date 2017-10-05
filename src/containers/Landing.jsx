@@ -5,6 +5,7 @@ import BlogModule from "../components/Landing/BlogModule.jsx";
 import PackageModule from "../components/Landing/PackageModule.jsx";
 import ShopModule from "../components/Landing/ShopModule.jsx";
 import AdModule from "../components/Landing/AdModule.jsx";
+
 class Landing extends Component {
 	render() {
 		return(

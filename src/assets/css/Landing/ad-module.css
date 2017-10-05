@@ -1,5 +1,6 @@
-.ad-module {
+.ad-module div {
 	height: 300px;
 	width: 100%;
 	background: #fff;
+	display: flex;
 }

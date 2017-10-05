@@ -7,9 +7,12 @@
 }
 .blog-module div {
 	border: 1px solid black;
+	height: 100%;
 }
 .blog-module-img {
-	width: 75%;
+	border: 1px solid red;
+	background: #000;
+	width: 65%;
 }
 .blog-module-text {
 	flex-grow: 2;
