@@ -5,9 +5,8 @@ class AdModule extends Component {
 	
 	render() {
 		return(
-			<div>
+			<div className="ad-module">
 				Ad Module
-
 			</div>
 		);
 	}

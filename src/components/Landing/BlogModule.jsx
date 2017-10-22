@@ -14,7 +14,7 @@ class BlogModule extends Component {
 					</form>
 				</div>
 				<div className="blog-module-img">
-					<img src="#" alt="blog photo"/>
+					<img src="../../assets/images/brigittet.jpg" alt="blog photo"/>
 				</div>
 			</div>
 		);

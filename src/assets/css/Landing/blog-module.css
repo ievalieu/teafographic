@@ -14,6 +14,11 @@
 	background: #000;
 	width: 65%;
 }
+.blog-module-img img {
+	height: auto;
+	max-width: 100%;
+	margin: auto;
+}
 .blog-module-text {
 	flex-grow: 2;
 }
