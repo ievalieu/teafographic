@@ -13,6 +13,8 @@
 }
 .hero img {
 	border: 1px solid red;
+	border-radius: 50%;
+	background: #fff;
 	width: 150px;
 	height: 150px;
 }
