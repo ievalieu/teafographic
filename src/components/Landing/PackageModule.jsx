@@ -8,11 +8,11 @@ class PackageModule extends Component {
 			<div className="package-module">
 				<button>
 					<h2>One-Time Special Occasion</h2>
-					<p>asdjf;lajsdf;lajsfl;jadl;fa;sdfj</p>
+					<p>Special Occasion Tea Gift</p>
 				</button>
 				<button>
 					<h2>3-Month Subscription</h2>
-					<p>asdjf;lajsdf;lajsfl;jadl;fa;sdfj</p>
+					<p>Tea Subscription for 3 months.</p>
 				</button>
 				<button>
 					<h2>6-Month Subscription</h2>

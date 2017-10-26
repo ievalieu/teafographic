@@ -7,7 +7,8 @@ class Encyclopedia extends Component {
 	render() {
 		return(
 			<main className="container">
-				Encyclopedia Page
+				<h1>Tea and Herb Encyclopedia</h1>
+				<p>Description of teas and herbs. As well as health benefits.</p>
 			</main>
 		);
 	}

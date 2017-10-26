@@ -5,7 +5,7 @@ class Blog extends Component {
 	render() {
 		return(
 			<main className="container">
-				Blog Page
+				<h1>Tea Blog Lifestyle</h1>
 			</main>
 		);
 	}
