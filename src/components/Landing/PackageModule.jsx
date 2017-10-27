@@ -16,11 +16,11 @@ class PackageModule extends Component {
 				</button>
 				<button>
 					<h2>6-Month Subscription</h2>
-					<p>asdjf;lajsdf;lajsfl;jadl;fa;sdfj</p>				
+					<p>Tea Subscription for 6 months.</p>				
 				</button>
 				<button>
 					<h2>12-Month Subscription</h2>
-					<p>asdjf;lajsdf;lajsfl;jadl;fa;sdfj</p>
+					<p>Tea Subscription for 12 months.</p>
 				</button>				
 			</div>
 		);

@@ -5,7 +5,18 @@ class Blog extends Component {
 	render() {
 		return(
 			<main className="container">
-				<h1>Tea Blog Lifestyle</h1>
+				<div>
+					<h1>Tea Blog Lifestyle</h1>
+
+				</div>
+				<div>
+					Newsfeed rows
+				</div>
+				<div>
+					<form>
+						<input placeholder="Search Articles"></input>
+					</form>
+				</div>
 			</main>
 		);
 	}
@@ -13,3 +24,13 @@ class Blog extends Component {
 }
 
 export default Blog;
+
+//Hero - featuring slideshow
+	//Latest Article?
+	//Featuring
+//Should it be in newsfeed format?
+//Newsfeed rows
+	//h2
+	//description
+	//image
+//Sidebar
