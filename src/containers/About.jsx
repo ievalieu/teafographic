@@ -20,3 +20,9 @@ class About extends Component {
 }
 
 export default About;
+//hero
+	//h1 title: about teafographic
+	//p description paragraph long about lifestyle
+// team
+// blog
+// products and/or tea farms

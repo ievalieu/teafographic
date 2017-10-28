@@ -16,3 +16,15 @@ class Encyclopedia extends Component {
 }
 
 export default Encyclopedia;
+
+//Hero
+	// search bar
+// rows like blog?
+	// tea name
+	// tea type
+	// tea description
+	// tea location
+	// health benefits
+	// tea color
+	// caffiene level
+	
