@@ -10,6 +10,7 @@ class Blog extends Component {
 
 				</div>
 				<div>
+					<h2>Blog</h2>
 					Newsfeed rows
 				</div>
 				<div>

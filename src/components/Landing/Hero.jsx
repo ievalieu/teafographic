@@ -9,7 +9,7 @@ class Hero extends Component {
 				<img src="#" alt="#" />
 				<h1>Custom Tea Subscription</h1>
 				<p>Tea infographics, your minimal lifestyle centered around the perfect cup of tea.</p>
-				<button>GET STARTED</button>
+				<button>SUBSCRIBE</button>
 			</div>
 		);
 	}

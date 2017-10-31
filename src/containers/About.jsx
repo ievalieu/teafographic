@@ -7,11 +7,15 @@ class About extends Component {
 		return(
 			<div className="about">
 				<div className="about-hero-box">
+					<h2>Teafographic Lifestyle</h2>
 					<img src="#" alt="about-hero"/>
 				</div>
-				<div>
-					<h2>Teafographic</h2>
+				<div className="about-blog">
+					<h2>Blog</h2>
 					<p></p>
+				</div>
+				<div className="about-team">
+					<h2>Team</h2>
 				</div>
 			</div>
 		);
