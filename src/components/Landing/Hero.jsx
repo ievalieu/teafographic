@@ -18,3 +18,4 @@ class Hero extends Component {
 export default Hero;
 
 //slider images? button?
+// Hero should be reuseable. 
