@@ -20,3 +20,5 @@ class Header extends Component {
 };
 
 export default Header;
+
+//need to reuse header, change the login/to logout? or maybe settings...? Or Account

@@ -9,10 +9,6 @@ class Encyclopedia extends Component {
 			<main className="container">
 				<h1>Tea and Herb Encyclopedia</h1>
 				<p>Description of teas and herbs. As well as health benefits.</p>
-				<h1>Tea and Herb Encyclopedia</h1>
-				<p>Description of teas and herbs. As well as health benefits.</p>
-				<h1>Tea and Herb Encyclopedia</h1>
-				<p>Description of teas and herbs. As well as health benefits.</p>
 			</main>
 		);
 	}

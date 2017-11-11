@@ -1,17 +1,17 @@
 import React, { PropTypes, Component } from "react";
+import Hero from "../components/Landing/Hero.jsx";
 
 class Blog extends Component {
 	
 	render() {
 		return(
-			<main className="container">
-				<div>
-					<h1>Tea Blog Lifestyle</h1>
-				</div>
-
+			<main>
+				<Hero/>
 				<div>
 					<h2>Blog</h2>
-					Newsfeed rows
+					<div>Newsfeed Row</div>
+					<div>Newsfeed Row</div>
+					<div>Newsfeed Row</div>					
 				</div>
 				<div className="sidebar">
 					<form>

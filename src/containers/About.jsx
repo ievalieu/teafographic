@@ -1,21 +1,21 @@
 import React, { PropTypes, Component } from "react";
 import "../assets/css/About/about.css";
+import Hero from "../components/Landing/Hero.jsx";
 
 class About extends Component {
 	
 	render() {
 		return(
-			<div className="about">
-				<div className="about-hero-box">
-					<h2>Teafographic Lifestyle</h2>
-					<img src="#" alt="about-hero"/>
-				</div>
-				<div className="about-blog">
-					<h2>Blog</h2>
-					<p></p>
-				</div>
-				<div className="about-team">
-					<h2>Team</h2>
+			<div>
+				<Hero/>
+				<div className="about">
+					<div>
+						<h2>Blog</h2>
+						<p></p>
+					</div>
+					<div className="about-team">
+						<h2>Team</h2>
+					</div>
 				</div>
 			</div>
 		);

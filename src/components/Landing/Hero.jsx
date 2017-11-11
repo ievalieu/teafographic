@@ -19,3 +19,7 @@ export default Hero;
 
 //slider images? button?
 // Hero should be reuseable. 
+
+//reuse of hero for: blog, landing, about, encyclopedia
+
+//setState? message props sent.
