@@ -25,7 +25,8 @@ module.exports = {
 			},
             {
                 test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
-                loaders: ["url-loader"]
+                loaders: ["url-loader"],
+                include:path.join(__dirname, "/src/assets")
             }
 		]
 	}
