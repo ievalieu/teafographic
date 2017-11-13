@@ -13,7 +13,7 @@ class About extends Component {
 						<h2>Blog</h2>
 						<p></p>
 					</div>
-					<div className="about-team">
+					<div>
 						<h2>Team</h2>
 					</div>
 				</div>
