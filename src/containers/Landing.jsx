@@ -13,8 +13,8 @@ class Landing extends Component {
 				<Hero/>
 				<PackageModule/>
 				<ShopModule/>
-				<BlogModule/>
 				<AdModule/>
+				<BlogModule/>
 			</div>
 		);
 	}

@@ -16,7 +16,7 @@ class Footer extends Component {
 					<a href="#"><img src="../../assets/icons/fb-logo.png" alt="facebook-url"/></a>
 					<a href="#">Instagram</a>
 					<a href="#">Pinterest</a>
-					<a href="#">Twitter</a>
+					<a href="#"><img src="../../assets/icons/twitter-logo.png" alt="twitter-url"/></a>
 					<a href="#">Blog</a>
 				</div>
 	        </footer>

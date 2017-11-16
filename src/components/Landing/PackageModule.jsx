@@ -1,5 +1,10 @@
 import React, { PropTypes, Component } from "react";
 import "../../assets/css/Landing/package-module.css";
+import icon1 from "../../assets/icons/icons8-Calendar 1.png";
+import icon3 from "../../assets/icons/icons8-Calendar 3.png";
+import icon6 from "../../assets/icons/icons8-Calendar 6.png";
+import icon12 from "../../assets/icons/icons8-Calendar 12.png";
+
 
 class PackageModule extends Component {
 	
@@ -7,20 +12,24 @@ class PackageModule extends Component {
 		return(
 			<div className="package-module">
 				<button>
-					<h2>One-Time Special Occasion</h2>
-					<p>Special Occasion Tea Gift</p>
+					<img src={ icon1 }/>
+					<h2>Special Occasion</h2>
+					<p>One-Time Tea Gift</p>
 				</button>
 				<button>
-					<h2>3-Month Subscription</h2>
-					<p>Tea Subscription for 3 months.</p>
+					<img src={ icon3 }/>
+					<h2>Month Subscription</h2>
+					<p>Subscribe for 3 months.</p>
 				</button>
 				<button>
-					<h2>6-Month Subscription</h2>
-					<p>Tea Subscription for 6 months.</p>				
+					<img src={ icon6 }/>
+					<h2>Month Subscription</h2>
+					<p>Subscribe for 6 months.</p>				
 				</button>
 				<button>
-					<h2>12-Month Subscription</h2>
-					<p>Tea Subscription for 12 months.</p>
+					<img src={ icon12 }/>
+					<h2>Month Subscription</h2>
+					<p>Subscribe for 1 year.</p>
 				</button>				
 			</div>
 		);

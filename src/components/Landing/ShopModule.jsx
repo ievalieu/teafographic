@@ -1,5 +1,6 @@
 import React, { PropTypes, Component } from "react";
 import "../../assets/css/Landing/shop-module.css";
+import igormiske from "../../assets/images/igormiske.jpg";
 
 class ShopModule extends Component {
 	
@@ -7,7 +8,7 @@ class ShopModule extends Component {
 		return(
 			<div className="shop-module">
 				<div className="shop-module-img">
-					<img src="#" alt="Shop Image"/>
+					<img src={igormiske} alt="Shop Image"/>
 				</div>
 				<div className="shop-module-text">
 					<h2>Shop for Tea</h2>

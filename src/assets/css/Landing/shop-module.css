@@ -1,13 +1,12 @@
 .shop-module {
 	display: flex;
 	flex-flow: row;
-	justify-content: space-around;
-	align-items: center;
-	height: 300px;
+	height: 350px;
 	background: #fff;
 }
 .shop-module div {
 	height: 100%;
+	width: 50%;
 }
 .shop-module button {
 	background: #fac7c6;
@@ -18,16 +17,15 @@
 	border: none;
 	box-shadow: 1px 1px 1px #000;
 }
-.shop-module-img {
-	border: 1px solid red;
-	background: #000;
-	width: 75%;
+.shop-module-img img {
+	width: 100%;
+	height: 350px;
 }
 .shop-module-text {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	display: flex;
-	flex-grow: 2;
-	flex-direction: column;
+/*	flex-grow: 2;*/
+	flex-flow: column;
 	justify-content: center;
 	align-items: center;
 }

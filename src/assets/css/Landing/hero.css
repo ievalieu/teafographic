@@ -5,7 +5,7 @@
 	align-items: center;
 	background-image: url("../../images/alexandrec.jpg");
 	background-position: center center;
-	background-size: 100% 1000px;
+	background-size: 100% 800px;
 	background-repeat: no-repeat;
 	height: 450px;
 	width: 100%;
@@ -14,7 +14,7 @@
 .hero img {
 	width: 150px;
 	height: 150px;
-	border-color: white;
+
 }
 .hero h1{
 	text-align: center;
@@ -22,7 +22,7 @@
 }
 .hero p {
 	font-size: 20px;
-	text-shadow: 1px 1px 1px #000;
+	text-shadow: 2px 2px 2px #000;
 }
 .hero button {
 	background: #fac7c6;
@@ -31,5 +31,5 @@
 	height: 50px;
 	border-radius: 5px;
 	border: none;
-	box-shadow: 1px 1px 1px #000;
+	box-shadow: 2px 2px 2px #000;
 }
