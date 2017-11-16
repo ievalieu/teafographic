@@ -1,12 +1,15 @@
 import React, { PropTypes, Component } from "react";
 import "../../assets/css/App/header.css";
+import ticon from "../../assets/icons/teafo.png";
 
 class Header extends Component {
 	render() {
 		return(
 			<header>
 				<div>
-					<a href="/" id="logo">teafographic</a>
+					<a href="/" id="logo">
+						<img src={ ticon } alt="#" />
+					teafographic</a>
 				</div>
 				<div>
 					<a href="/about">About</a>

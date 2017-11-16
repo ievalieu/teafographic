@@ -11,11 +11,13 @@ class About extends Component {
 				<div className="about">
 					<div>
 						<h2>Blog</h2>
+						<img src="#" alt="#"/>
 						<p> Learn more about Teafographi Lifestyle! We're all about that zen living!</p>
 					</div>
 					<div>
 						<h2>Team</h2>
-						<p>Eva Lieu</p>
+						<p>Eva Lieu - Web developer</p>
+						<p>Short description</p>
 					</div>
 				</div>
 			</div>
