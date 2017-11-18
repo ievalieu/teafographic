@@ -7,6 +7,7 @@ class AdModule extends Component {
 			<div>
 				Ad Module
 				CATS
+				Not showing up with styles, why? Adding className makes it not render... strange.
 				<img src="#" />
 			</div>
 		);
