@@ -16,9 +16,13 @@ class Header extends Component {
 					<a href="/blog">Blog</a>
 					<a href="/index">Index</a>
 					<a href="#">Login</a>
+					<a href="#" className="hamburger">=</a>
 				</div>
 			</header>	
 		);
+	}
+	openSidebar(){
+		
 	}
 };
 
