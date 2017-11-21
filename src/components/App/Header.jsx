@@ -16,13 +16,13 @@ class Header extends Component {
 					<a href="/blog">Blog</a>
 					<a href="/index">Index</a>
 					<a href="#">Login</a>
-					<a href="#" className="hamburger">=</a>
+					<a href="#" className="hamburger" onClick={this.openSidebar()}>=</a>
 				</div>
 			</header>	
 		);
 	}
 	openSidebar(){
-		
+		console.log("Cat.");
 	}
 };
 
