@@ -5,6 +5,7 @@ class AdModule extends Component {
 	render() {
 		return(
 			<div>
+				<div id="adModuleThing"></div>
 				Ad Module
 				CATS
 				Not showing up with styles, why? Adding className makes it not render... strange.

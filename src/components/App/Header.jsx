@@ -3,6 +3,11 @@ import "../../assets/css/App/header.css";
 import ticon from "../../assets/icons/teafo.png";
 
 class Header extends Component {
+	constructor(props){
+		super(props);
+		this.state = {sidebar: false};
+		this.openSidebar = this.openSidebar.bind(this);
+	}
 	render() {
 		return(
 			<header>
@@ -24,8 +29,14 @@ class Header extends Component {
 	openSidebar(e){
 		e.preventDefault();
 		console.log("Cat.");
-		document.getElementById("logo").innerHTML="<div>CAT</div>";
-
+		this.setState(prevState => ({sidebar: !prevState.sidebar}));
+		console.log(this.state.sidebar);
+		if(this.state.sidebar === true) {
+			document.getElementById("adModuleThing").innerHTML="<div>CAT</div>";
+		} else {
+			document.getElementById("adModuleThing").innerHTML="<div></div>";			
+		}
+		
 	}
 };
 
