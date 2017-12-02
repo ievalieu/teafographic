@@ -24,6 +24,8 @@ class Header extends Component {
 	openSidebar(e){
 		e.preventDefault();
 		console.log("Cat.");
+		document.getElementById("logo").innerHTML="<div>CAT</div>";
+
 	}
 };
 
