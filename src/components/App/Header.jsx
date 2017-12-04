@@ -32,11 +32,10 @@ class Header extends Component {
 		this.setState(prevState => ({sidebar: !prevState.sidebar}));
 		console.log(this.state.sidebar);
 		if(this.state.sidebar === true) {
-			document.getElementById("adModuleThing").innerHTML="<div>CAT</div>";
+			document.getElementById("sidebar").style.display = "block";
 		} else {
-			document.getElementById("adModuleThing").innerHTML="<div></div>";			
+			document.getElementById("sidebar").style.display = "none";			
 		}
-		
 	}
 };
 

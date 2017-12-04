@@ -2,7 +2,7 @@ import React, { PropTypes, Component } from "react";
 import Header from '../components/App/Header.jsx';
 import Footer from '../components/App/Footer.jsx';
 import Adbar from "../components/App/Adbar.jsx";
-// import Sidebar from '../components/Sidebar.jsx';
+import Sidebar from '../components/App/Sidebar.jsx';
 import "../assets/css/App/app.css";
 
 class App extends Component {
@@ -13,6 +13,7 @@ class App extends Component {
 				<Adbar/>
 				{this.props.children}
 				<Footer/>
+				<Sidebar/>
 			</main>
 		);
 	}

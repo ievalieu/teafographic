@@ -1,0 +1,12 @@
+.sidebar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid red;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: 100%;
+	z-index: 5;
+}
