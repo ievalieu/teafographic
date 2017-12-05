@@ -5,7 +5,7 @@ class Sidebar extends Component {
 	render() {
 		return(
 			<div className="sidebar" id="sidebar">
-				<div>TEAFOGRAPHIC</div>
+				<div className="sidebar-header" id="logo">teafographic</div>
 				<div><a href="/about">About</a></div>
 				<div><a href="/blog">Blog</a></div>
 				<div><a href="/index">Index</a></div>
