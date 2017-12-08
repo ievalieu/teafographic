@@ -15,6 +15,7 @@ class Landing extends Component {
 				<ShopModule/>
 				<AdModule/>
 				<BlogModule/>
+				a;lsdjflasdjfl
 			</div>
 		);
 	}
