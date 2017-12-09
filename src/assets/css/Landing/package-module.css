@@ -24,7 +24,7 @@
 
 /*==========Media Queries==========*/
 @media screen and (min-width: 1240px){
-	.sidebar {
+	.package-module {
 		display: flex;
 		flex-direction: column;
 		padding: 20px 50px;
