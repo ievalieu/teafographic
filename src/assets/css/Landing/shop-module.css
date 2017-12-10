@@ -31,7 +31,7 @@
 }
 
 /*==========Media Queries==========*/
-@media screen and (min-width: 1240px){
+/*@media screen and (min-width: 1240px){
 	.sidebar {
 		display: flex;
 		flex-direction: column;
@@ -74,4 +74,4 @@
 		font-size: 20px;
 		margin: 10px 0;
 	}
-}
+}*/
