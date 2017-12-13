@@ -40,47 +40,27 @@
 }
 
 /*==========Media Queries==========*/
-/*@media screen and (min-width: 1240px){
-	.sidebar {
+@media screen and (min-width: 1240px){
+	.blog-module {
 		display: flex;
-		flex-direction: column;
-		padding: 20px 50px;
-	}
-	.sidebar-item {
-		font-size: 30px;
+		flex-direction: row;
 	}
 }
 @media screen and (min-width: 945px) and (max-width: 1240px){
-	.sidebar {
+	.blog-module {
 		display: flex;
-		flex-direction: column;
-		padding: 20px 50px;
+		flex-direction: row;
 	}
-	.sidebar-item {
-		font-size: 30px;
-	}	
 }
 @media screen and (min-width: 760px) and (max-width: 945px){
-	.sidebar {
+	.blog-module {
 		display: flex;
 		flex-direction: column;
-		padding: 20px 50px;
-	}
-	.sidebar-item {
-		font-size: 30px;
 	}
 }
 @media only screen and (max-width: 760px) {
-	li {
-		font-size: 18px;
-	}
-	.sidebar {
+	.blog-module {
 		display: flex;
 		flex-direction: column;
-		padding: 20px 50px;
 	}
-	.sidebar-item {
-		font-size: 20px;
-		margin: 10px 0;
-	}
-}*/
+}
