@@ -31,47 +31,28 @@
 }
 
 /*==========Media Queries==========*/
-/*@media screen and (min-width: 1240px){
-	.sidebar {
+@media screen and (min-width: 1240px){
+	.shop-module {
 		display: flex;
 		flex-direction: column;
 		padding: 20px 50px;
-	}
-	.sidebar-item {
-		font-size: 30px;
 	}
 }
 @media screen and (min-width: 945px) and (max-width: 1240px){
-	.sidebar {
+	.shop-module {
 		display: flex;
 		flex-direction: column;
-		padding: 20px 50px;
 	}
-	.sidebar-item {
-		font-size: 30px;
-	}	
 }
 @media screen and (min-width: 760px) and (max-width: 945px){
-	.sidebar {
+	.shop-module {
 		display: flex;
 		flex-direction: column;
-		padding: 20px 50px;
-	}
-	.sidebar-item {
-		font-size: 30px;
 	}
 }
 @media only screen and (max-width: 760px) {
-	li {
-		font-size: 18px;
-	}
-	.sidebar {
+	.shop-module {
 		display: flex;
 		flex-direction: column;
-		padding: 20px 50px;
 	}
-	.sidebar-item {
-		font-size: 20px;
-		margin: 10px 0;
-	}
-}*/
+}
