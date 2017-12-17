@@ -14,13 +14,18 @@ class Header extends Component {
 				<div>
 					<a href="/" id="logo">
 						<img src={ ticon } alt="#" />
-					teafographic</a>
+					</a>
 				</div>
 				<div>
+					<a href="/" id="logo">teafographic</a>
+				</div>
+				<div id="header-links">
 					<a href="/about">About</a>
 					<a href="/blog">Blog</a>
 					<a href="/index">Index</a>
 					<a href="#">Login</a>
+				</div>
+				<div id="ham">
 					<a href="#" className="hamburger" onClick={this.openSidebar}>=</a>
 				</div>
 			</header>	

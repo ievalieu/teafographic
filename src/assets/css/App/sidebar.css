@@ -21,6 +21,9 @@
 	font-weight: 100; 
 	font-family: 'Dosis', sans-serif;
 }
+#sidebar {
+	display: none;
+}
 
 /*==========Media Queries==========*/
 @media screen and (min-width: 1240px){
@@ -32,6 +35,7 @@
 	.sidebar-item {
 		font-size: 30px;
 	}
+
 }
 @media screen and (min-width: 945px) and (max-width: 1240px){
 	.sidebar {

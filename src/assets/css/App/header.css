@@ -30,6 +30,9 @@ header img {
 .hamburger {
 	font-size: 30px;
 }
+#header-links {
+	display: block;
+}
 /*
 // style="font-family: 'Lato', sans-serif; font-weight: 200"
 // style="font-family: 'Lato', sans-serif; font-weight: 200"
@@ -43,22 +46,42 @@ header img {
 		display: flex;
 		flex-direction: row;
 	}
+	#ham {
+		display: none;
+	}
 }
 @media screen and (min-width: 945px) and (max-width: 1240px){
 	.header {
 		display: flex;
 		flex-direction: row;
 	}	
+	#ham {
+		display: none;
+	}
 }
 @media screen and (min-width: 760px) and (max-width: 945px){
 	.header {
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
+	}
+	#header-links {
+		display: none;
+	}
+	#ham {
+		display: block;
 	}
 }
 @media only screen and (max-width: 760px) {
 	.header {
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
+	}
+	#header-links {
+		display: none;
+	}
+	#ham {
+		display: block;
 	}
 }

@@ -35,7 +35,7 @@
 }
 
 /*==========Media Queries==========*/
-@media screen and (min-width: 1240px){
+/*@media screen and (min-width: 1240px){
 	.hero {
 		display: flex;
 		flex-direction: column;
@@ -58,4 +58,4 @@
 		display: flex;
 		flex-direction: column;
 	}
-}
+}*/
