@@ -12,12 +12,14 @@ class Header extends Component {
 		return(
 			<header>
 				<div>
-					<a href="/" id="logo">
-						<img src={ ticon } alt="#" />
-					</a>
-				</div>
-				<div>
-					<a href="/" id="logo">teafographic</a>
+					<div>
+						<a href="/" id="logo">
+							<img src={ ticon } alt="#" />
+						</a>
+					</div>
+					<div>
+						<a href="/" id="logo">teafographic</a>
+					</div>
 				</div>
 				<div id="header-links">
 					<a href="/about">About</a>
