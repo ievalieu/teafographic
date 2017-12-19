@@ -29,9 +29,13 @@ header img {
 }
 .hamburger {
 	font-size: 30px;
+	margin-right: 15px;
 }
 #header-links {
 	display: block;
+}
+#header-links a {
+	margin-right: 15px;
 }
 /*
 // style="font-family: 'Lato', sans-serif; font-weight: 200"
