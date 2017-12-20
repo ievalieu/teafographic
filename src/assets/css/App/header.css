@@ -52,6 +52,7 @@ header img {
 	}
 	#ham {
 		display: none;
+		margin-right: 15px;
 	}
 }
 @media screen and (min-width: 945px) and (max-width: 1240px){
