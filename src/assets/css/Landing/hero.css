@@ -54,7 +54,7 @@
 		flex-direction: column;
 	}
 	.hero h1 {
-		font-size: 72px;
+		font-size: 64px;
 	}
 	.hero p {
 		font-size: 20px;
@@ -66,7 +66,7 @@
 		flex-direction: column;
 	}
 	.hero h1 {
-		font-size: 72px;
+		font-size: 48px;
 	}
 	.hero p {
 		font-size: 20px;
@@ -78,7 +78,7 @@
 		flex-direction: column;
 	}
 	.hero h1 {
-		font-size: 36px;
+		font-size: 32px;
 	}
 	.hero p {
 		font-size: 20px;

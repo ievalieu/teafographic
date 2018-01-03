@@ -1,6 +1,7 @@
 import React, { PropTypes, Component } from "react";
 import "../../assets/css/App/header.css";
 import ticon from "../../assets/icons/teafo.png";
+import hamburger from "../../assets/icons/hamburger.png";
 
 class Header extends Component {
 	constructor(props){
@@ -13,7 +14,7 @@ class Header extends Component {
 			<header>
 				<div>
 					<div>
-						<a href="/" id="logo">
+						<a href="/" id="logo-icon">
 							<img src={ ticon } alt="#" />
 						</a>
 					</div>
@@ -28,7 +29,9 @@ class Header extends Component {
 					<a href="#">Login</a>
 				</div>
 				<div id="ham">
-					<a href="#" className="hamburger" onClick={this.openSidebar}>=</a>
+					<a href="#" className="hamburger" onClick={this.openSidebar}>
+						<img src={ hamburger } alt="#" />
+					</a>
 				</div>
 			</header>	
 		);
