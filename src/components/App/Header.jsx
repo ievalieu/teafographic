@@ -1,6 +1,6 @@
 import React, { PropTypes, Component } from "react";
 import "../../assets/css/App/header.css";
-import ticon from "../../assets/icons/teafo.png";
+import brand_logo from "../../assets/icons/teafo.png";
 import hamburger from "../../assets/icons/hamburger.png";
 
 class Header extends Component {
@@ -12,24 +12,24 @@ class Header extends Component {
 	render() {
 		return(
 			<header>
-				<div>
+				<div className="header-brand">
 					<div>
-						<a href="/" id="logo-icon">
-							<img src={ ticon } alt="#" />
+						<a href="/" id="brand-logo">
+							<img src={ brand_logo } alt="#" />
 						</a>
 					</div>
 					<div>
-						<a href="/" id="logo">teafographic</a>
+						<a href="/" id="brand-name">teafographic</a>
 					</div>
 				</div>
-				<div id="header-links">
+				<div className="header-links">
 					<a href="/about">About</a>
 					<a href="/blog">Blog</a>
 					<a href="/index">Index</a>
 					<a href="#">Login</a>
 				</div>
-				<div id="ham">
-					<a href="#" className="hamburger" onClick={this.openSidebar}>
+				<div className="header-hamburger">
+					<a href="#" onClick={this.openSidebar}>
 						<img src={ hamburger } alt="#" />
 					</a>
 				</div>

@@ -23,7 +23,7 @@ header img {
 	height: 35px;
 	padding: 0px 0px;
 }
-#logo, #logo-icon {
+#brand-name, #brand-logo {
 	text-align: center; 
 	flex: 1; 
 	font-size: 35px;
@@ -31,14 +31,14 @@ header img {
 	font-family: 'Dosis', sans-serif;
 	border: 1px solid red;
 }
-.hamburger {
+/*.hamburger {
 	font-size: 30px;
-	margin-right: 15px;
-}
-#header-links {
+	margin-right: 0px 0px;
+}*/
+.header-links {
 	display: block;
 }
-#header-links a {
+.header-links a {
 	margin-right: 15px;
 }
 /*
@@ -54,11 +54,11 @@ header img {
 		display: flex;
 		flex-direction: row;
 	}
-	#ham {
+	.header-hamburger {
 		display: none;
 		margin-right: 15px;
 	}
-	#logo {
+	#brand-name {
 		font-size: 35px;
 	}
 	header img {
@@ -72,10 +72,10 @@ header img {
 		display: flex;
 		flex-direction: row;
 	}	
-	#ham {
+	.header-hamburger {
 		display: none;
 	}
-	#logo {
+	#brand-name {
 		font-size: 28px;
 	}
 	header img {
@@ -90,13 +90,13 @@ header img {
 		flex-direction: column;
 		justify-content: center;
 	}
-	#header-links {
+	.header-links {
 		display: none;
 	}
-	#ham {
+	.header-hamburger {
 		display: block;
 	}
-	#logo {
+	#brand-name {
 		font-size: 22px;
 	}
 	header img {
@@ -111,13 +111,13 @@ header img {
 		flex-direction: column;
 		justify-content: center;
 	}
-	#header-links {
+	.header-links {
 		display: none;
 	}
-	#ham {
+	.header-hamburger {
 		display: block;
 	}
-	#logo {
+	#brand-name {
 		font-size: 24px;
 	}
 	header img {
