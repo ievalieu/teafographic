@@ -12,15 +12,13 @@ class Header extends Component {
 	render() {
 		return(
 			<header>
-				<div className="header-brand">
-					<div>
-						<a href="/" id="brand-logo">
-							<img src={ brand_logo } alt="#" />
-						</a>
-					</div>
-					<div>
-						<a href="/" id="brand-name">teafographic</a>
-					</div>
+				<div>
+					<a href="/" id="brand-logo">
+						<img src={ brand_logo } alt="#" />
+					</a>	
+				</div>
+				<div>
+					<a href="/" id="brand-name">teafographic</a>
 				</div>
 				<div className="header-links">
 					<a href="/about">About</a>

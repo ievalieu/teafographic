@@ -1,7 +1,6 @@
 header {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 	align-items: center;
 	align-content: center;
 	box-shadow: 1px 2px 5px 3px #333;
@@ -9,10 +8,7 @@ header {
 	z-index: 2;
 }
 header div {
-	margin: 0px 0px;
 	display: inline-block;
-	border: 1px solid red;
-	padding: 0px 0px;
 }
 header a {
 	color: black;
@@ -20,22 +16,26 @@ header a {
 header img {
 	width: 40px;
 	height: 35px;
-	padding: 0px 0px;
 }
-#brand-name, #brand-logo {
+#brand-name {
 	text-align: center; 
-	flex: 1; 
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: 100; 
 	font-family: 'Dosis', sans-serif;
-	border: 1px solid red;
 }
-/*header-links and header-hamburger alternate between display*/
 .header-links {
-	display: block;
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
 }
 .header-links a {
 	margin-right: 15px;
+}
+.header-hamburger {
+	display: none;
+}
+#brand-logo img {
+	margin: 5px 10px;
 }
 /*
 // style="font-family: 'Lato', sans-serif; font-weight: 200"
@@ -45,55 +45,20 @@ header img {
 // style="text-align: left; font-family: 'Abel', sans-serif; font-size: 30px"*/
 
 /*==========Media Queries==========*/
-@media screen and (min-width: 1240px){
-	.header-hamburger {
-		display: none;
-		margin-right: 15px;
-	}
-	#brand-name {
-		font-size: 35px;
-	}
-	header img {
-		width: 40px;
-		height: 35px;
-		padding: 0px 0px;
-	}
-}
-@media screen and (min-width: 945px) and (max-width: 1240px){
-	.header-hamburger {
-		display: none;
-	}
+@media screen and (min-width: 1240px){}
+@media screen and (min-width: 945px) and (max-width: 1240px){}
+@media screen and (min-width: 760px) and (max-width: 945px){
 	#brand-name {
 		font-size: 28px;
 	}
 	header img {
-		width: 40px;
-		height: 35px;
-		padding: 0px 0px;
-	}
-}
-@media screen and (min-width: 760px) and (max-width: 945px){
-	.header {
-		justify-content: center;
-	}
-	.header-links {
-		display: none;
-	}
-	.header-hamburger {
-		display: block;
-	}
-	#brand-name {
-		font-size: 22px;
-	}
-	header img {
-		width: 40px;
-		height: 35px;
-		padding: 0px 0px;
+		width: 35px;
+		height: 30px;
 	}
 }
 @media only screen and (max-width: 760px) {
-	.header {
-		justify-content: center;
+	header {
+		justify-content: space-between;
 	}
 	.header-links {
 		display: none;
@@ -107,6 +72,5 @@ header img {
 	header img {
 		width: 30px;
 		height: 25px;
-		padding: 0px 0px;
 	}
 }
