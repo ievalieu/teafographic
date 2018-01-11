@@ -13,7 +13,6 @@ class AdModule extends Component {
 			</div>
 		);
 	}
-
 };
 
 export default AdModule;

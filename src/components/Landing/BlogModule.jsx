@@ -6,7 +6,7 @@ class BlogModule extends Component {
 	render() {
 		return(
 			<div className="blog-module">
-				<div className="blog-module-text">
+				<div className="blog-module-textbox">
 					<form>
 						<h2>Follow our blog!</h2>
 						<p>Discover our tea lifestyle.</p>
