@@ -26,9 +26,13 @@
 	border: none;
 	box-shadow: 1px 1px 1px #000;
 }
+.shop-module-img {
+	height: 350px;
+}
 .shop-module-img img {
 	width: 100%;
-	height: 350px;
+	height: 100%;
+	object-fit: cover;
 }
 
 /*==========Media Queries==========*/

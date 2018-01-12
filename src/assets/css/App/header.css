@@ -6,6 +6,7 @@ header {
 	box-shadow: 1px 2px 5px 3px #333;
 	font-family: 'Dosis', sans-serif;
 	z-index: 2;
+	background: #fff;
 }
 header div {
 	display: inline-block;
