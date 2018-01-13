@@ -10,10 +10,10 @@ class App extends Component {
 		return (
 			<main>
 				<Header/>
+				<Sidebar/>
 				<Adbar/>
 				{this.props.children}
 				<Footer/>
-				<Sidebar/>
 			</main>
 		);
 	}
