@@ -32,6 +32,9 @@ header img {
 .header-links a {
 	margin-right: 15px;
 }
+.header-links a:hover {
+	color: #fac7c6;
+}
 .header-hamburger {
 	display: none;
 }

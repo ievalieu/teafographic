@@ -16,15 +16,15 @@ class About extends Component {
 					</div>
 				</div>
 				<div className="article">
+					<div className="image-box">
+						<img src="../assets/images/agap.jpg"/>
+					</div>
 					<div className="title-box">
 						<h2>Team</h2>
 					</div>
-					<div className="image-box">
-						<img src="#"/>
-					</div>
 					<div className="description-box">
 						<p>Eva Lieu - Web developer</p>
-						<p>Short description</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi magni fugit, quidem autem reiciendis impedit totam obcaecati mollitia facere asperiores nulla esse dolorum sed voluptas quam pariatur alias odio quasi.</p>
 					</div>
 				</div>
 			</div>

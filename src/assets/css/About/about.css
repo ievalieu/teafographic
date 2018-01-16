@@ -7,14 +7,28 @@
 .about p {
 }
 .side {
-	background: pink;
+	background: #ccc;
 	width: 30%;
 	height: 100vh;
 	padding: 15px 30px;
 }
 .article {
-	background: blue;
+	background: #fff;
 	width: 70%;
 	height: 100vh;
+}
+.image-box {
+	height: 250px;
+	width: 100%;
+}
+.image-box img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.title-box {
 	padding: 15px 30px;
+}
+.description-box {
+	padding: 0px 30px;
 }
