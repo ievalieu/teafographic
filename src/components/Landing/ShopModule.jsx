@@ -10,7 +10,7 @@ class ShopModule extends Component {
 				<div className="shop-module-img">
 					<img src={igormiske} alt="Shop Image"/>
 				</div>
-				<div className="shop-module-text">
+				<div className="shop-module-textbox">
 					<h2>Shop for Tea</h2>
 					<p>Don't want to buy a subscription, but interested in our inventory? Visit our online store!</p>
 					<button>SHOP NOW</button>

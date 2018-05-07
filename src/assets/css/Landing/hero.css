@@ -3,22 +3,17 @@
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
-	background-image: url("../../images/alexandrec.jpg");
+/*	background-image: url("../../images/alexandrec.jpg");
 	background-position: center center;
-	background-size: 100% 800px;
-	background-repeat: no-repeat;
+	background-size: 100% 900px;
+	background-repeat: no-repeat;*/
 	height: 450px;
 	width: 100%;
 	color: #fff;
-}
-.hero img {
-	width: 150px;
-	height: 150px;
-
-}
-.hero h1{
 	text-align: center;
-	width: 100%;
+}
+.hero h1, p, button {
+	z-index: 2;
 }
 .hero p {
 	font-size: 20px;
@@ -34,53 +29,45 @@
 	border: none;
 	box-shadow: 2px 2px 2px #000;
 }
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.slider {
+	position: absolute;
+	height: 450px;
+	width: 100%;
+	z-index: -2;
+}
 
 /*==========Media Queries==========*/
 @media screen and (min-width: 1240px){
-	.hero {
-		display: flex;
-		flex-direction: column;
-	}
 	.hero h1 {
 		font-size: 72px;
 	}
-	.hero p {
-		font-size: 20px;
-	}
 }
 @media screen and (min-width: 945px) and (max-width: 1240px){
-	.hero {
-		display: flex;
-		flex-direction: column;
-	}
 	.hero h1 {
 		font-size: 64px;
-	}
-	.hero p {
-		font-size: 20px;
 	}
 }
 @media screen and (min-width: 760px) and (max-width: 945px){
 	.hero {
-		display: flex;
-		flex-direction: column;
+		/*background-size: 150% 900px;*/
 	}
 	.hero h1 {
 		font-size: 48px;
 	}
-	.hero p {
-		font-size: 20px;
-	}
 }
 @media only screen and (max-width: 760px) {
 	.hero {
-		display: flex;
-		flex-direction: column;
+		/*background-size: 200% 900px;*/
 	}
 	.hero h1 {
-		font-size: 32px;
+		font-size: 36px;
 	}
 	.hero p {
-		font-size: 20px;
+		font-size: 18px;
 	}
 }
